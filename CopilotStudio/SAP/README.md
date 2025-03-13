@@ -150,7 +150,14 @@ Agent 구축을 시작하기 전에 Power Platform 및 SAP 시스템에 대한 �
 4. 벌써 완료했습니다. 참 쉽죠? Copilot Studio + SAP를 결합하여 카테고리 기준의 데이터를 팀즈에서 조회할 수 있습니다.
 ![image](https://github.com/user-attachments/assets/b32a1099-ca95-48bf-b87b-6f6ab01a9bde)
 
+5. 마찬가지로 위에서 Microsoft 365 Copilot으로 배포하면, Copilot Agent로도 사용할 수 있습니다. <br><img width="949" alt="image" src="https://github.com/user-attachments/assets/fa19308c-389f-4653-84f4-285cf0d45285" />
 
+
+Advanced AI Agent by Copilot Studio
+<br>(+ Topic Logic & Adaptive Card & Sharing Variables)
+===
+Comming Soon...
+   
 
 
 
