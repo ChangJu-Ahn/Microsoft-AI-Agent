@@ -6,6 +6,9 @@ SaaS 제품인 Copilot Studio를 활용하면, 별도의 호스팅 서버가 필
 
 여기서는 SAP와 연결하지만, Power Automate의 1,400개 커넥터 / 더 나아가서 기업 시스템과 연동 및 관리할 수 있습니다.
 
+
+>원본은 아래에서 참고할 수 있고, 저는 여기에 한국 특성에 맞게 더 커스터마이징 한 내용을 담습니다.
+https://techcommunity.microsoft.com/blog/sapapplications/sap--teams-integration-with-copilot-studio-and-generative-ai/4213260**
 ----
 
 완성된 데모 영상 #1 (SAP AI Agent in Microsoft Teams)
