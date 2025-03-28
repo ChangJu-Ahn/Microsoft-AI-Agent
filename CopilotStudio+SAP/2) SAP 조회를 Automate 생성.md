@@ -1,4 +1,4 @@
-실습
+실습 - SAP 조회를 Automate 생성
 ===
 
 ### 6.Power Automate & Connector 설정
