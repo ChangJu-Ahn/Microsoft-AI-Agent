@@ -16,7 +16,7 @@
 
 ---
 ### 8. SAP Prodct Data 토픽 생성 
-<br/>
+
 다음과 같이 '새로 시작' 버튼을 통해 빈 토픽을 생성합니다.
 <img width="428" alt="image" src="https://github.com/user-attachments/assets/73ad69f1-5ea9-4719-90b7-9e3fe3edc1ed" />
 <br>
