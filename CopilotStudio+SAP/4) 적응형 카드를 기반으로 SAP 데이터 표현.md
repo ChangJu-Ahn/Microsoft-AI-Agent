@@ -15,7 +15,26 @@
 이러한 기술을 습득하면 Copilot의 기능과 상호 작용성이 향상되어 사용자에게 SAP 데이터와 상호 작용하는 보다 직관적이고 효율적인 방법을 제공합니다.
 
 ---
-sada
-sdas
-da
-d
+### 8. SAP Prodct Data 토픽 생성
+다음과 같이 '새로 시작' 버튼을 통해 빈 토픽을 생성합니다.
+<img width="428" alt="image" src="https://github.com/user-attachments/assets/73ad69f1-5ea9-4719-90b7-9e3fe3edc1ed" />
+<br>
+
+그리고 AI 에이전트가 이해할 수 있도록, 다음 지침을 입력합니다.
+```
+This tool can handle queries like these:
+
+SAP product update.
+Update SAP product.
+Update SAP product data.
+Edit product information in SAP.
+Edit SAP product data.
+Show SAP product details.
+Edit SAP product information.
+```
+<img width="630" alt="image" src="https://github.com/user-attachments/assets/e287bf6c-cae0-409c-bcc1-005b258abf0c" />
+
+10. ㅁㄴㅇ
+11. ㅁㄴㅇ
+12. ㅁㄴㅇ
+13. 
