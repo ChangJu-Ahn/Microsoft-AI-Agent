@@ -15,7 +15,7 @@
 이러한 기술을 습득하면 Copilot의 기능과 상호 작용성이 향상되어 사용자에게 SAP 데이터와 상호 작용하는 보다 직관적이고 효율적인 방법을 제공합니다.
 
 ---
-### 8. SAP Prodct Data 토픽 생성
+### 8. SAP Prodct Data 토픽 생성 <br>
 다음과 같이 '새로 시작' 버튼을 통해 빈 토픽을 생성합니다.
 <img width="428" alt="image" src="https://github.com/user-attachments/assets/73ad69f1-5ea9-4719-90b7-9e3fe3edc1ed" />
 <br>
