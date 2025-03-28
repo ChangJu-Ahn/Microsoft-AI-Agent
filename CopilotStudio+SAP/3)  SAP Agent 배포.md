@@ -1,6 +1,8 @@
 실습 - Agent를 Microsoft Teams & Microsoft 365 Copilot으로 배포
 ===
- 
+여기서는 간단하게 만들어진 SAP Agent를 Microsoft Teams & Microsoft 365 Copilot, 그리고 외부 웹 채널에 게시합니다.
+
+---
 ### 7. 완성된 AI Agent를 Microsoft Teams, 혹은 Microsoft 365 Copilot에 배포합니다. 
 1. 우선 만들어진 Agent를 게시합니다. 게시는 우측 상단에 있습니다. <br><img width="500" alt="image" src="https://github.com/user-attachments/assets/a72b7506-2445-4f94-9cb2-37ba7c8e6336" />
  
