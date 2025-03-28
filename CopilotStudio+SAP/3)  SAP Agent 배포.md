@@ -16,7 +16,21 @@
 
 
 ---
-### 기타 - Microsoft Teams & Microsoft 365 Copilot Agent 항목에서 보이지 않는다면?
+### 기타 1. Microsoft Teams & Microsoft 365 Copilot Agent 항목에서 보이지 않는다면?
 만약, Microsoft Teams 혹은 M365 Copilot에서 나타나지 않는다면 M365 관리자가 승인을 해 주어야 할 수 있습니다.
 승인 대기 중인 앱은 다음과 같이 확인할 수 있습니다.
 ![image](https://github.com/user-attachments/assets/fe9ef1e2-903c-4ead-a97e-9aa1461129d2)
+
+---
+### 기타 2. 웹 기반으로 우리 그룹웨어(홈페이지)에 넣고 싶다면?
+인증을 변경해야 하는 절차가 필요합니다. 다만, 아래와 같이 채널 기능을 이용한다면 웹 상으로 즉시 배포할 수 있습니다.
+또한, Direct Line 이라는 기능을 통해 Custom Design을 직접 개발할 수도 있습니다.
+![image](https://github.com/user-attachments/assets/f850a979-243d-474b-8c79-d8a292770bc9)
+
+
+>자세한 내용은 Copilot Studio Github 리포를 참고해 주세요.
+https://github.com/microsoft/CopilotStudioSamples/tree/main/CustomExternalUI
+
+
+
+
