@@ -16,7 +16,7 @@
 
 
 ---
-###기타 - Microsoft Teams & Microsoft 365 Copilot Agent 항목에서 보이지 않는다면?
+### 기타 - Microsoft Teams & Microsoft 365 Copilot Agent 항목에서 보이지 않는다면?
 만약, Microsoft Teams 혹은 M365 Copilot에서 나타나지 않는다면 M365 관리자가 승인을 해 주어야 할 수 있습니다.
 승인 대기 중인 앱은 다음과 같이 확인할 수 있습니다.
 ![image](https://github.com/user-attachments/assets/fe9ef1e2-903c-4ead-a97e-9aa1461129d2)
