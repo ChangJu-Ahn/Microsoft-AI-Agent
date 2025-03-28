@@ -1,6 +1,8 @@
 실습 - SAP 조회를 Automate 생성
 ===
+여기서는 Power Automate를 통해 SAP 데이터를 조회할 수 있는 자동화 영역을 생성합니다.
 
+---
 ### 6.Power Automate & Connector 설정
 1. 상단 작업 -> 작업 추가 -> 새 작업 -> 새 Power Automate 흐름을 눌러 신규 Automate flow를 생성합니다.
 ![image](https://github.com/user-attachments/assets/6bb1ebb4-0850-4302-83a3-8e134a028144)
