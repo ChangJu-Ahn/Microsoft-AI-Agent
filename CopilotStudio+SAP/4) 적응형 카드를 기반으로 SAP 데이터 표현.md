@@ -99,7 +99,7 @@ make.powerautomate.com 으로 이동합니다. 이후 내 흐름에서 이전에
 
 <br/>
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/7fa72019-1e13-4293-a961-9f8595b281b8)
 플로우 저장 후 혹시 켜짐 상태가 아니라면, 플로우가 동작할 수 있도록 켜짐 상태로 유지합니다.
 
 
