@@ -89,4 +89,18 @@ Show and update information about a product in the SAP system.
 make.powerautomate.com 으로 이동합니다. 이후 내 흐름에서 이전에 만들어 준 Automate를 다른이름으로 저장합니다.  이때 저장할 이름은 'SAP 품목 상세 조회'로 저장합니다.
 ![image](https://github.com/user-attachments/assets/c4a8eba3-10b6-46a8-b55a-6b19b242aa17)
 
+<br/>
+
+![image](https://github.com/user-attachments/assets/809735f5-3f80-4906-aaff-5e440dc76d83)
+플로우 상세화면으로 진입해서 SAP를 호출하는 필터 조건을 Category에서 ProductId로 변경합니다.   이는 Agent가 파라미터를 알아서 파싱 후 SAP를 다시한번 조회할 때 사용됩니다.
+
+> 참고: "Read Odata Entity"를 사용하지 않는 이유는?   
+> ProductID가 잘못된 경우 Read Entity가 오류를 발생시키는 반면 Query는 간단히 "[]"를 반환하여 예외를 쉽게 처리할 수 있습니다. 
+
+<br/>
+
+![Uploading image.png…]()
+플로우 저장 후 혹시 켜짐 상태가 아니라면, 플로우가 동작할 수 있도록 켜짐 상태로 유지합니다.
+
+
 
