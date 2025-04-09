@@ -1,5 +1,8 @@
 kind: TaskDialog
 modelDisplayName: SAP 품목 상세 조회
+modelDescription: |-
+  한 개의 제품 상세정보를 조회합니다. 사용자는 다음과 같은 제품 ID처럼 하나의 제품만 입력할 수 있습니다.
+  예) HT-1000;HT-1257;PF-1000
 inputs:
   - kind: AutomaticTaskInput
     propertyName: text
