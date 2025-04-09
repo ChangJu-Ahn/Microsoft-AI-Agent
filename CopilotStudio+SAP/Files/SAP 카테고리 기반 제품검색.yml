@@ -13,7 +13,8 @@ inputs:
 
 outputs:
   - propertyName: text
-    description: "   SAP에서 찾은 주어진 카테고리의 제품. 다음 정보를 포함하는 HTML 테이블로 결과를 제시합니다.    ProductID; Name; Category; Description; Supplier; Price; Currency."
+    name: output
+    description: SAP에서 찾은 주어진 카테고리의 제품. 다음 정보를 포함하는 HTML 테이블로 결과를 제시합니다.    ProductID; Name; Category; Description; Supplier; Price; Currency.
 
 action:
   kind: InvokeFlowTaskAction
