@@ -1,0 +1,269 @@
+{
+  '$schema': "http://adaptivecards.io/schemas/adaptive-card.json",
+  type: "AdaptiveCard",
+  version: "1.5",
+  body: [
+    {
+      type: "ColumnSet",
+      columns: [
+        {
+          type: "Column",
+          width: "stretch",
+          items: [
+            {
+              type: "TextBlock",
+              text: "SAP Product Information",
+              weight: "Bolder",
+              size: "Large"
+            }
+          ]
+        },
+        {
+          type: "Column",
+          width: "auto",
+          items: [
+            {
+              type: "Image",
+              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/SAP-Logo.svg/1115px-SAP-Logo.svg.png",
+              size: "Small",
+              horizontalAlignment: "Right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "Image",
+      url: "https://sapes5.sapdevcenter.com/sap/public/bc/NWDEMO_MODEL/IMAGES/" & Topic.ProductID & ".jpg",
+      size: "Medium",
+      horizontalAlignment: "Center"
+    },
+    {
+      type: "ColumnSet",
+      columns: [
+        {
+          type: "Column",
+          width: 1,
+          items: [
+            {
+              type: "TextBlock",
+              text: "Product ID:",
+              weight: "Bolder"
+            }
+          ]
+        },
+        {
+          type: "Column",
+          width: 2,
+          items: [
+            {
+              type: "TextBlock",
+              text: Topic.ProductID
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "ColumnSet",
+      columns: [
+        {
+          type: "Column",
+          width: 1,
+          items: [
+            {
+              type: "TextBlock",
+              text: "Name:",
+              weight: "Bolder"
+            }
+          ]
+        },
+        {
+          type: "Column",
+          width: 2,
+          items: [
+            {
+              type: "Input.Text",
+              id: "productName",
+              placeholder: "Enter product name",
+              value: LookUp(Topic.Product, ProductID = Topic.ProductID).Name
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "ColumnSet",
+      columns: [
+        {
+          type: "Column",
+          width: 1,
+          items: [
+            {
+              type: "TextBlock",
+              text: "Description:",
+              weight: "Bolder"
+            }
+          ]
+        },
+        {
+          type: "Column",
+          width: 2,
+          items: [
+            {
+              type: "Input.Text",
+              id: "description",
+              isMultiline: true,
+              placeholder: "Enter product description",
+              value: LookUp(Topic.Product, ProductID = Topic.ProductID).Description
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "ColumnSet",
+      columns: [
+        {
+          type: "Column",
+          width: 1,
+          items: [
+            {
+              type: "TextBlock",
+              text: "SupplierID:",
+              weight: "Bolder"
+            }
+          ]
+        },
+        {
+          type: "Column",
+          width: 2,
+          items: [
+            {
+              type: "TextBlock",
+              text: LookUp(Topic.Product, ProductID = Topic.ProductID).SupplierID
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "ColumnSet",
+      columns: [
+        {
+          type: "Column",
+          width: 1,
+          items: [
+            {
+              type: "TextBlock",
+              text: "SupplierName:",
+              weight: "Bolder"
+            }
+          ]
+        },
+        {
+          type: "Column",
+          width: 2,
+          items: [
+            {
+              type: "TextBlock",
+              text: LookUp(Topic.Product, ProductID = Topic.ProductID).SupplierName
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "ColumnSet",
+      columns: [
+        {
+          type: "Column",
+          width: 1,
+          items: [
+            {
+              type: "TextBlock",
+              text: "Category:",
+              weight: "Bolder"
+            }
+          ]
+        },
+        {
+          type: "Column",
+          width: 2,
+          items: [
+            {
+              type: "TextBlock",
+              text: LookUp(Topic.Product, ProductID = Topic.ProductID).Category
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "ColumnSet",
+      columns: [
+        {
+          type: "Column",
+          width: 1,
+          items: [
+            {
+              type: "TextBlock",
+              text: "Price:",
+              weight: "Bolder"
+            }
+          ]
+        },
+        {
+          type: "Column",
+          width: 2,
+          items: [
+            {
+              type: "Input.Number",
+              id: "price",
+              placeholder: "Enter price",
+              value: LookUp(Topic.Product, ProductID = Topic.ProductID).Price
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "ColumnSet",
+      columns: [
+        {
+          type: "Column",
+          width: 1,
+          items: [
+            {
+              type: "TextBlock",
+              text: "Currency:",
+              weight: "Bolder"
+            }
+          ]
+        },
+        {
+          type: "Column",
+          width: 2,
+          items: [
+            {
+              type: "Input.Text",
+              id: "currencyCode",
+              placeholder: "Enter currency code",
+              value: LookUp(Topic.Product, ProductID = Topic.ProductID).CurrencyCode
+            }
+          ]
+        }
+      ]
+    }
+  ] ,
+  actions: [
+    {
+      type: "Action.Submit",
+      title: "Submit Changes",
+      horizontalAlignment: "Center",
+      data: {
+        action: "submitProductChanges"
+      }
+    }
+  ]
+}
