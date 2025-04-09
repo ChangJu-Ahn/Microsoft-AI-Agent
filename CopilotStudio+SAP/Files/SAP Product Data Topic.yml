@@ -1,0 +1,453 @@
+kind: AdaptiveDialog
+modelDescription: |-
+  This tool can handle queries like these:
+  
+  sap product update.
+  
+  Update SAP product.
+  
+  Update SAP product data.
+  
+  Edit product information in SAP.
+  
+  Edit SAP product data.
+  
+  Show SAP product details.
+  
+  Edit SAP product information.
+inputs:
+  - kind: AutomaticTaskInput
+    propertyName: ProductID
+    description: |-
+      Product ID.
+      Example: HT-1000
+    entity: StringPrebuiltEntity
+    shouldPromptUser: true
+
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent: {}
+  actions:
+    - kind: Question
+      id: question_8tbeCK
+      interruptionPolicy:
+        allowInterruption: true
+
+      variable: Topic.ProductID
+      prompt: |-
+        업데이트할 제품 를 입력해 주세요.
+        [예시: HT-1000, HT-3004]
+      entity: StringPrebuiltEntity
+
+    - kind: SendActivity
+      id: sendActivity_hvMH8D
+      activity: 입력한 제품 ID는  {Topic.ProductID} 입니다.
+
+    - kind: InvokeFlowAction
+      id: invokeFlowAction_cRMk2z
+      input:
+        binding:
+          text: =Topic.ProductID
+
+      output:
+        binding:
+          output: Topic.output
+
+      flowId: a103b8e5-2410-f011-998a-000d3a59c99c
+
+    - kind: ConditionGroup
+      id: conditionGroup_G07Ayg
+      conditions:
+        - id: conditionItem_SVnWbf
+          condition: =Topic.output = "[]"
+          actions:
+            - kind: SendActivity
+              id: sendActivity_3WEeGR
+              activity: "{Topic.ProductID} 제품명으로 SAP 데이터를 찾을 수 없습니다."
+
+      elseActions:
+        - kind: ParseValue
+          id: A3US3Z
+          variable: Topic.Product
+          valueType:
+            kind: Table
+            properties:
+              Category: String
+              ChangedAt: String
+              CreatedAt: String
+              CurrencyCode: String
+              Depth: Number
+              Description: String
+              DescriptionLanguage: String
+              DimUnit: String
+              Height: Number
+              MeasureUnit: String
+              Name: String
+              NameLanguage: String
+              Price: Number
+              ProductID: String
+              SupplierID: String
+              SupplierName: String
+              TaxTarifCode: Number
+              ToSalesOrderLineItems:
+                type:
+                  kind: Record
+                  properties:
+                    AssociationLinkUrl: Blank
+                    IsCollection: Boolean
+                    Name: String
+                    Url: String
+
+              ToSupplier:
+                type:
+                  kind: Record
+                  properties:
+                    AssociationLinkUrl: Blank
+                    IsCollection: Boolean
+                    Name: String
+                    Url: String
+
+              TypeCode: String
+              WeightMeasure: Number
+              WeightUnit: String
+              Width: Number
+
+          value: =Topic.output
+
+        - kind: AdaptiveCardPrompt
+          id: JwODBm
+          card: |-
+            ={
+              '$schema': "http://adaptivecards.io/schemas/adaptive-card.json",
+              type: "AdaptiveCard",
+              version: "1.5",
+              body: [
+                {
+                  type: "ColumnSet",
+                  columns: [
+                    {
+                      type: "Column",
+                      width: "stretch",
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: "SAP Product Information",
+                          weight: "Bolder",
+                          size: "Large"
+                        }
+                      ]
+                    },
+                    {
+                      type: "Column",
+                      width: "auto",
+                      items: [
+                        {
+                          type: "Image",
+                          url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/SAP-Logo.svg/1115px-SAP-Logo.svg.png",
+                          size: "Small",
+                          horizontalAlignment: "Right"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type: "Image",
+                  url: "https://sapes5.sapdevcenter.com/sap/public/bc/NWDEMO_MODEL/IMAGES/" & Topic.ProductID & ".jpg",
+                  size: "Medium",
+                  horizontalAlignment: "Center"
+                },
+                {
+                  type: "ColumnSet",
+                  columns: [
+                    {
+                      type: "Column",
+                      width: 1,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: "Product ID:",
+                          weight: "Bolder"
+                        }
+                      ]
+                    },
+                    {
+                      type: "Column",
+                      width: 2,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: Topic.ProductID
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type: "ColumnSet",
+                  columns: [
+                    {
+                      type: "Column",
+                      width: 1,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: "Name:",
+                          weight: "Bolder"
+                        }
+                      ]
+                    },
+                    {
+                      type: "Column",
+                      width: 2,
+                      items: [
+                        {
+                          type: "Input.Text",
+                          id: "productName",
+                          placeholder: "Enter product name",
+                          value: LookUp(Topic.Product, ProductID = Topic.ProductID).Name
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type: "ColumnSet",
+                  columns: [
+                    {
+                      type: "Column",
+                      width: 1,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: "Description:",
+                          weight: "Bolder"
+                        }
+                      ]
+                    },
+                    {
+                      type: "Column",
+                      width: 2,
+                      items: [
+                        {
+                          type: "Input.Text",
+                          id: "description",
+                          isMultiline: true,
+                          placeholder: "Enter product description",
+                          value: LookUp(Topic.Product, ProductID = Topic.ProductID).Description
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type: "ColumnSet",
+                  columns: [
+                    {
+                      type: "Column",
+                      width: 1,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: "SupplierID:",
+                          weight: "Bolder"
+                        }
+                      ]
+                    },
+                    {
+                      type: "Column",
+                      width: 2,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: LookUp(Topic.Product, ProductID = Topic.ProductID).SupplierID
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type: "ColumnSet",
+                  columns: [
+                    {
+                      type: "Column",
+                      width: 1,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: "SupplierName:",
+                          weight: "Bolder"
+                        }
+                      ]
+                    },
+                    {
+                      type: "Column",
+                      width: 2,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: LookUp(Topic.Product, ProductID = Topic.ProductID).SupplierName
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type: "ColumnSet",
+                  columns: [
+                    {
+                      type: "Column",
+                      width: 1,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: "Category:",
+                          weight: "Bolder"
+                        }
+                      ]
+                    },
+                    {
+                      type: "Column",
+                      width: 2,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: LookUp(Topic.Product, ProductID = Topic.ProductID).Category
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type: "ColumnSet",
+                  columns: [
+                    {
+                      type: "Column",
+                      width: 1,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: "Price:",
+                          weight: "Bolder"
+                        }
+                      ]
+                    },
+                    {
+                      type: "Column",
+                      width: 2,
+                      items: [
+                        {
+                          type: "Input.Number",
+                          id: "price",
+                          placeholder: "Enter price",
+                          value: LookUp(Topic.Product, ProductID = Topic.ProductID).Price
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type: "ColumnSet",
+                  columns: [
+                    {
+                      type: "Column",
+                      width: 1,
+                      items: [
+                        {
+                          type: "TextBlock",
+                          text: "Currency:",
+                          weight: "Bolder"
+                        }
+                      ]
+                    },
+                    {
+                      type: "Column",
+                      width: 2,
+                      items: [
+                        {
+                          type: "Input.Text",
+                          id: "currencyCode",
+                          placeholder: "Enter currency code",
+                          value: LookUp(Topic.Product, ProductID = Topic.ProductID).CurrencyCode
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ] ,
+              actions: [
+                {
+                  type: "Action.Submit",
+                  title: "Submit Changes",
+                  horizontalAlignment: "Center",
+                  data: {
+                    action: "submitProductChanges"
+                  }
+                }
+              ]
+            }
+          output:
+            binding:
+              action: Topic.action
+              actionSubmitId: Topic.actionSubmitId
+              currencyCode: Topic.currencyCode
+              description: Topic.description
+              price: Topic.price
+              productName: Topic.productName
+
+          outputType:
+            properties:
+              action: String
+              actionSubmitId: String
+              currencyCode: String
+              description: String
+              price: Number
+              productName: String
+
+        - kind: InvokeFlowAction
+          id: invokeFlowAction_hCRrjx
+          input:
+            binding:
+              number: =Topic.price
+              text: =Topic.ProductID
+              text_1: =Topic.productName
+              text_2: =Topic.description
+              text_3: =Topic.currencyCode
+
+          output:
+            binding:
+              output: Topic.Output
+
+          flowId: d0aabee7-1415-f011-998a-000d3a59c99c
+
+        - kind: SendActivity
+          id: sendActivity_fWTAg4
+          activity: "{Topic.Output}"
+
+inputType:
+  properties:
+    currencyCode:
+      displayName: currencyCode
+      type: String
+
+    description:
+      displayName: description
+      type: String
+
+    price:
+      displayName: price
+      type: Number
+
+    ProductID:
+      displayName: ProductID
+      description: |-
+        Product ID.
+        Example: HT-1000
+      type: String
+
+    productName:
+      displayName: productName
+      type: String
+
+outputType: {}
