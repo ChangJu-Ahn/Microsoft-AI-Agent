@@ -167,6 +167,6 @@ Automate에서는 SAP 제품정보의 상세 값을 JSON값으로 반환합니�
 
 <br/>
 
-여기에 저장된 Adaptive Card json 템플릿을 복사하여 붙여넣습니다.
-CopilotStudio+SAP/Files/SAP Adaptive Card.txt
+[여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/CopilotStudio%2BSAP/Files/SAP%20Adaptive%20Card.txt)에 저장된 Adaptive Card json 템플릿을 복사하여 붙여넣습니다.
+
 
