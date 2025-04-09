@@ -33,6 +33,25 @@ make.powerautomate.com 으로 접속하여, 이 전에 만들었던 'SAP 품목 
 ![image](https://github.com/user-attachments/assets/19227dbd-1352-4578-b297-95806996492c)
 
 <br/>
-추가한 파라미터의 값을 Agent에서 받아올 수 있도록 입력 변수를 아래와 같이 설정합니다.   
-이때 **Price의 경우는 숫자 타입**으로 지정합니다.
+
+추가한 파라미터의 값을 Agent에서 받아올 수 있도록 입력 변수를 아래와 같이 설정합니다.  
+이때 **Price의 경우는 숫자 타입**으로 지정합니다.  
 ![image](https://github.com/user-attachments/assets/87dae1a1-d1c3-4dc5-a41c-2e33c59adcf3)
+
+<br/>
+
+방금 생성한 입력 변수를 추가한 엔티티 파라미터에 맵핑합니다.
+![image](https://github.com/user-attachments/assets/423b06bd-169e-463a-ba10-a79511c451b2)
+
+<br/>
+
+마지막으로 업데이트가 완료되었다는 메시지를 Agent에 반환합니다.
+![image](https://github.com/user-attachments/assets/6055fa1b-d15b-4d66-966f-da90a5b9331d)
+
+<br/>
+
+---
+## 참고
+Power Automate를 저장할 때 우측 상단에 다음과 같이 표현이 되어 있다면, **초안 저장 후 게시**까지 해야 합니다.
+![image](https://github.com/user-attachments/assets/27979fc5-2b33-42b6-8a96-93ce7d83d64b)
+
