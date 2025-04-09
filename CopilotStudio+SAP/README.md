@@ -31,7 +31,7 @@ https://techcommunity.microsoft.com/blog/sapapplications/sap--teams-integration-
 Copilot Studio 및 Generative AI를 사용하여 SAP를 Microsoft Teams와 통합하면 생산성을 크게 향상하고 워크플로를 간소화할 수 있습니다. 여기서는 Power Platform과 SAP Odata Connector를 이용합니다.
 그리고 최종 결과물은 AI Agent를 생성하고, Teams 및 M365 Copilot으로 배포하고, 제너레이티브, 사용자와 소통할 수 있는 적응형 카드(Adaptive Card)를 만들고 SAP의 데이터를 변경할 수 있습니다. 
 
----
-
+기타
+==
 최종 실습 결과물의 에이전트는 files 폴더 내 Power Platform Soultion 형태로 저장되어 있습니다.   
 템플릿이므로 다운로드 후 직접 원하는 테넌트에 Import 후 사용할 수 있습니다.
