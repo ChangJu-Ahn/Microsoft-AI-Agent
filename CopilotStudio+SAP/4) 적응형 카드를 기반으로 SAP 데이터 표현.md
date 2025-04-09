@@ -100,8 +100,7 @@ make.powerautomate.com 으로 이동합니다. 이후 내 흐름에서 이전에
 <br/>
 
 Copilot Studio로 다시 반환하는 값은 다음 이미지를 참고합니다. SAP에서 받아온 값 내에서 'data' 항목의 값을 추출하기 위해 빨간색 영역의 ['data']를 꼭 추가해야 합니다.   
-![image](https://github.com/user-attachments/assets/ea3b9470-169c-4867-97ed-cd2db6ccb6b7)
-
+![image](https://github.com/user-attachments/assets/59591809-6b81-4563-a0a2-a97231afe4a1)
 
 <br/>
 
