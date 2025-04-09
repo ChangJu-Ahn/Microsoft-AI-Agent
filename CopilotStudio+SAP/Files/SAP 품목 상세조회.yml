@@ -1,5 +1,5 @@
 kind: TaskDialog
-modelDisplayName: List SAP product details
+modelDisplayName: SAP 품목 상세 조회
 inputs:
   - kind: AutomaticTaskInput
     propertyName: text
