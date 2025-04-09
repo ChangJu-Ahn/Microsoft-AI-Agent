@@ -33,5 +33,5 @@ Copilot Studio 및 Generative AI를 사용하여 SAP를 Microsoft Teams와 통�
 
 ---
 
-최종 실습 결과물의 에이전트는 files 폴더 내 Power Platform Soultion 형태로 저장되어 있습니다.
+최종 실습 결과물의 에이전트는 files 폴더 내 Power Platform Soultion 형태로 저장되어 있습니다.   
 템플릿이므로 다운로드 후 직접 원하는 테넌트에 Import 후 사용할 수 있습니다.
