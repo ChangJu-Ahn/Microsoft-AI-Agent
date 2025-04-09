@@ -14,7 +14,7 @@ inputs:
 outputs:
   - propertyName: output
     name: text
-    description: SAP에서 특정 제품 ID로 찾은 제품. 값은 그대로 두되, HTML 형태로 깔끔하게 볼 수 있도록 변환해 주세요.
+    description: SAP에서 찾은 주어진 제품 ID의 상세 정보. 반환된 정보 중 공백이 아닌 값만을 HTML 테이블로 결과를 제시합니다.
 
 action:
   kind: InvokeFlowTaskAction
