@@ -121,7 +121,7 @@ Copilot Studio로 다시 반환하는 값은 다음 이미지를 참고합니다
 
 ### 11. 오류 처리 프로세스 설정(!만약 반환된 값이 없다면!)
 만약 ProductID를 잘못 입력했거나, SAP에서 찾은 값이 하나도 없다면? 이럴 때 처리할 수 있는 오류 프로세스르 설정합니다.
-![image](https://github.com/user-attachments/assets/724dc067-af23-4f91-af3e-5dadbe8d4e07)
+![image](https://github.com/user-attachments/assets/79642da3-76b2-4d71-8680-385299f067c9)
 
 <br/>
 
@@ -135,13 +135,14 @@ Copilot Studio로 다시 반환하는 값은 다음 이미지를 참고합니다
 ### 12. Automate Output 값 기반의 구문 분석 
 Automate에서는 SAP 제품정보의 상세 값을 JSON값으로 반환합니다. 이를 사용하기 위해서는 파싱처리를 해야 합니다.    
 위치는 SAP에서 값을 받아온 이후 프로세스이므로, 꼭 위치를 잘 확인해야 합니다.
-![image](https://github.com/user-attachments/assets/debfe927-6d88-4a9f-a07c-8368c81a1c12)
+![image](https://github.com/user-attachments/assets/7102cb78-bb06-4542-abe8-859c827fa892)
+
 
 
 <br/>
 
 구문 분석을 위해서 Automate에서 받아온 변수 값을 선택합니다.   
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/b8067634-7006-492e-945f-9b10db429dfa" />
+![image](https://github.com/user-attachments/assets/44c02528-8bfa-46e4-8286-4a774db38f59)
 
 <br/>
 
@@ -156,7 +157,7 @@ Automate에서는 SAP 제품정보의 상세 값을 JSON값으로 반환합니�
 <br/>
 다시 코파일럿 스튜디오로 넘어와서 샘플 데이터에서 참고할 수 있도록 '샘플 JSON에서 스키마 가져오기'를 클릭하고 위의 샘플 결과 값을 붙여넣기합니다.
 
-![image](https://github.com/user-attachments/assets/5553cab1-b349-4252-a1c9-0914008aadde)
+![image](https://github.com/user-attachments/assets/42a18dd7-c3a2-4ca5-b62c-b5917b071913)
 <img width="710" alt="image" src="https://github.com/user-attachments/assets/31a25087-5f72-4ecc-8010-20f7cde5f97e" />
 
 <br/>
@@ -166,8 +167,7 @@ Automate에서는 SAP 제품정보의 상세 값을 JSON값으로 반환합니�
 
 ### 13. SAP 데이터를 기반으로 적응형 카드 제작
 적응형 카드를 기반으로 메시지를 보내고, 응답받을 수 있습니다.  
-![image](https://github.com/user-attachments/assets/952d3655-daec-4fbf-8fa6-45df29d266a6)
-
+![image](https://github.com/user-attachments/assets/a99df0a2-fb3d-4e32-b7d0-f2824ad167e1)
 
 <br/>
 
