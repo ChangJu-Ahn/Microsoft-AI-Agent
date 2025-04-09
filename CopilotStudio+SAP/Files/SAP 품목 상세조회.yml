@@ -1,0 +1,22 @@
+kind: TaskDialog
+modelDisplayName: List SAP product details
+inputs:
+  - kind: AutomaticTaskInput
+    propertyName: text
+    description: |-
+      Product Category. Only one single product can be input as input like the product id following. 
+      
+      HT-1000
+      HT-1257
+      PF-1000
+    entity: StringPrebuiltEntity
+
+outputs:
+  - propertyName: output
+    description: Products found in SAP of a given product id.  Present the result well-known structures that we can understand easily with bullet points . All of empty columns are not displayed in this values. 
+
+action:
+  kind: InvokeFlowTaskAction
+  flowId: 35f15314-33f3-ef11-be21-000d3a5ac34e
+
+outputMode: Specific
