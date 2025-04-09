@@ -13,6 +13,7 @@ inputs:
 
 outputs:
   - propertyName: output
+    name: output
     description: SAP에서 특정 제품 ID로 찾은 제품. 결과를 잘 알려진 구조로 표시하고, 쉽게 이해할 수 있도록 요점을 표시하세요. 이 값에는 빈 열이 모두 표시되지 않습니다.
 
 action:
