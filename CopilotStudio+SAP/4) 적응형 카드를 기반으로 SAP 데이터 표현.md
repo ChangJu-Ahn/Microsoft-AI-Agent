@@ -144,7 +144,6 @@ Automate에서는 SAP 제품정보의 상세 값을 JSON값으로 반환합니�
 구문 분석을 위해서 Automate에서 받아온 변수 값을 선택합니다.   
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/b8067634-7006-492e-945f-9b10db429dfa" />
 
-
 <br/>
 
 샘플 데이터를 얻기 위해 기존에 생성했던 Automate로 돌아가서 다음과 같이 테스트를 진행합니다.   
@@ -167,14 +166,18 @@ Automate에서는 SAP 제품정보의 상세 값을 JSON값으로 반환합니�
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/109f993c-0c39-4667-8595-004f13ca5b9d" />
 
 ### 13. SAP 데이터를 기반으로 적응형 카드 제작
-적응형 카드를 기반으로 메시지를 보냅니다.  
-![image](https://github.com/user-attachments/assets/3a3e238f-1b61-45be-8ec6-2d3e23280ac9)
-![image](https://github.com/user-attachments/assets/e9dedeac-9440-4ef1-a422-e6bd980e1cd9)
+적응형 카드를 기반으로 메시지를 보내고, 응답받을 수 있습니다.  
+![image](https://github.com/user-attachments/assets/952d3655-daec-4fbf-8fa6-45df29d266a6)
+
 
 <br/>
 
-[여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/CopilotStudio%2BSAP/Files/SAP%20Adaptive%20Card.txt)에 저장된 Adaptive Card json 템플릿을 복사하여 붙여넣습니다.
-![image](https://github.com/user-attachments/assets/040aa176-6eb5-4681-8423-2d560d14d2c2)   
+[여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/CopilotStudio%2BSAP/Files/SAP%20Adaptive%20Card.txt)에 저장된 Adaptive Card json 템플릿을 복사하여 붙여넣습니다.   
+이때 빨간색 표시 박스를 클릭하여 '수식 편집'으로 변경해서 저장합니다.
+![image](https://github.com/user-attachments/assets/5151c83f-3674-4d3c-b8c5-fa8b73238c7e)
+
+> 위 정보는 미리 **디자인 및 값을 바인딩**한 적응형 카드 템플릿입니다.   
+> 다양한 템플릿을 만들 수 있는 적응형 카드 디자이너 웹 사이트는 [여기](https://adaptivecards.io/designer/)를 참고할 수 있습니다.
 
 <br/>
 
