@@ -99,6 +99,12 @@ make.powerautomate.com 으로 이동합니다. 이후 내 흐름에서 이전에
 
 <br/>
 
+Copilot Studio로 다시 반환하는 값은 다음 이미지를 참고합니다. SAP에서 받아온 값 내에서 'data' 항목의 값을 추출하기 위해 빨간색 영역의 ['data']를 꼭 추가해야 합니다.   
+![image](https://github.com/user-attachments/assets/ea3b9470-169c-4867-97ed-cd2db6ccb6b7)
+
+
+<br/>
+
 ![image](https://github.com/user-attachments/assets/7fa72019-1e13-4293-a961-9f8595b281b8)
 플로우 저장 후 혹시 켜짐 상태가 아니라면, 플로우가 동작할 수 있도록 켜짐 상태로 유지합니다.
 
@@ -168,5 +174,14 @@ Automate에서는 SAP 제품정보의 상세 값을 JSON값으로 반환합니�
 <br/>
 
 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/CopilotStudio%2BSAP/Files/SAP%20Adaptive%20Card.txt)에 저장된 Adaptive Card json 템플릿을 복사하여 붙여넣습니다.
+![image](https://github.com/user-attachments/assets/040aa176-6eb5-4681-8423-2d560d14d2c2)   
+
+<br/>
+
+잘 마무리 했다면, 'HT-6102 제품 상세정보' 라고 입력해서 테스트를 했을 때 다음과 같이 나올 수 있습니다.
+<img width="265" alt="image" src="https://github.com/user-attachments/assets/99f57cf5-8903-4fac-b8ec-ecb3351ceaa4" />
+
+> 만약 Product ID 값 외에 아무것도 안 나온다면?   
+> Power Automate에서 반환하는 값이 잘못 되어있을 수 있습니다. 꼭 이번 페이지의 9번 순서의 Automate 설정을 잘 확인하세요.
 
 
