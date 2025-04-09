@@ -187,4 +187,27 @@ Automate에서는 SAP 제품정보의 상세 값을 JSON값으로 반환합니�
 > 만약 Product ID 값 외에 아무것도 안 나온다면?   
 > Power Automate에서 반환하는 값이 잘못 되어있을 수 있습니다. 꼭 이번 페이지의 9번 순서의 Automate 설정을 잘 확인하세요.
 
+<br/>
+
+사용자가 입력한 값을 변수로 받기위해서 **스키마 편집**을 누른 후 아래 값을 붙여넣습니다.
+![image](https://github.com/user-attachments/assets/b67ea2ae-6c6b-4524-bff1-5595a205b3de)
+<img width="596" alt="image" src="https://github.com/user-attachments/assets/e02a2a06-d7cc-4488-8979-e887d22f4861" />
+
+```
+kind: Record
+properties:
+  action: String
+  actionSubmitId: String
+  currencyCode: String
+  description: String
+  price: Number
+  productName: String
+```
+
+<br/>
+
+최종 화면은 다음과 같고, 적응형 카드에서 저장한 값들이 아래의 출력 변수에 담기는 구조가 됩니다.
+<img width="763" alt="image" src="https://github.com/user-attachments/assets/4cce43ea-4b3e-4407-8ad3-f86772018567" />
+
+
 
