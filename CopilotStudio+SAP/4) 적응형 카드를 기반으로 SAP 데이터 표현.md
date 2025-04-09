@@ -121,7 +121,8 @@ Copilot Studio로 다시 반환하는 값은 다음 이미지를 참고합니다
 
 ### 11. 오류 처리 프로세스 설정(!만약 반환된 값이 없다면!)
 만약 ProductID를 잘못 입력했거나, SAP에서 찾은 값이 하나도 없다면? 이럴 때 처리할 수 있는 오류 프로세스르 설정합니다.
-![image](https://github.com/user-attachments/assets/79642da3-76b2-4d71-8680-385299f067c9)
+![image](https://github.com/user-attachments/assets/8cfdeace-58fd-4cc6-8f70-a6f7b17c890e)
+
 
 <br/>
 
