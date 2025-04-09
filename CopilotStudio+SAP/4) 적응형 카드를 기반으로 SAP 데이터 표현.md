@@ -102,5 +102,67 @@ make.powerautomate.com 으로 이동합니다. 이후 내 흐름에서 이전에
 ![image](https://github.com/user-attachments/assets/7fa72019-1e13-4293-a961-9f8595b281b8)
 플로우 저장 후 혹시 켜짐 상태가 아니라면, 플로우가 동작할 수 있도록 켜짐 상태로 유지합니다.
 
+<br/>
+
+### 10. 토픽에서 Power Automate 호출
+다음과 같이 토픽의 노드를 추가합니다. 그리고 방금 만들었던 Power Automate를 호출합니다.
+![image](https://github.com/user-attachments/assets/ccab9a3e-b6dd-49f1-8b39-c68426bfaf96)
+
+<br/>
+이후 Power Automate를 호출할 입력 변수에 이전에 받아온 ProductId를 연결합니다.
+![image](https://github.com/user-attachments/assets/98a2b34b-ee2e-41fc-86b6-cd93f382cbe0)
+
+<br/>
+
+### 11. 오류 처리 프로세스 설정(!만약 반환된 값이 없다면!)
+만약 ProductID를 잘못 입력했거나, SAP에서 찾은 값이 하나도 없다면? 이럴 때 처리할 수 있는 오류 프로세스르 설정합니다.
+![image](https://github.com/user-attachments/assets/724dc067-af23-4f91-af3e-5dadbe8d4e07)
+
+<br/>
+
+위 프로세스를 구성하기 위한 단계는 아래와 같습니다.
+1) Automate를 호출한 다음 노드에 반환된 '다음과 같음' 일 때 로 설정하고 해당 값은 []으로 설정합니다. 이는 반환된 json 값이 공백임을 의미합니다.
+2) 만약 공백이라면? 찾을 수 없다는 메시지를 추가합니다. 이때 사용자가 이해하기 쉽도록 조회한 변수(ProductId)를 포함하는 것이 좋습니다.
+3) 다시한번 물어볼 수 있도록 **노드 추가 -> 토픽 관리 -> 단계로 이동 -> 최초 ProductId를 질문하는 단계 선택** 이 되도록 설정합니다.
+   ![image](https://github.com/user-attachments/assets/f1433a81-5d96-43ca-a9ff-13164e80bc32)
+
+
+### 12. Automate Output 값 기반의 구문 분석 
+Automate에서는 SAP 제품정보의 상세 값을 JSON값으로 반환합니다. 이를 사용하기 위해서는 파싱처리를 해야 합니다.    
+위치는 SAP에서 값을 받아온 이후 프로세스이므로, 꼭 위치를 잘 확인해야 합니다.
+![image](https://github.com/user-attachments/assets/debfe927-6d88-4a9f-a07c-8368c81a1c12)
+
+
+<br/>
+
+구문 분석을 위해서 Automate에서 받아온 변수 값을 선택합니다.   
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/b8067634-7006-492e-945f-9b10db429dfa" />
+
+
+<br/>
+
+샘플 데이터를 얻기 위해 기존에 생성했던 Automate로 돌아가서 다음과 같이 테스트를 진행합니다.   
+![image](https://github.com/user-attachments/assets/0e0af061-62b4-4cc2-bcb3-a81f629a2e73)
+
+<br/>
+
+이후 테스트한 샘플 값을 복사합니다. 과정은 다음과 같습니다.
+![image](https://github.com/user-attachments/assets/254e7c72-d4cf-4adb-8c22-6a018a24424a)
+
+<br/>
+다시 코파일럿 스튜디오로 넘어와서 샘플 데이터에서 참고할 수 있도록 '샘플 JSON에서 스키마 가져오기'를 클릭하고 위의 샘플 결과 값을 붙여넣기합니다.
+
+![image](https://github.com/user-attachments/assets/5553cab1-b349-4252-a1c9-0914008aadde)
+<img width="710" alt="image" src="https://github.com/user-attachments/assets/31a25087-5f72-4ecc-8010-20f7cde5f97e" />
+
+<br/>
+마지막으로 이해하기 쉽도록 변수명(Product)을 변경하고 토픽을 저장합니다.
+<br/>
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/109f993c-0c39-4667-8595-004f13ca5b9d" />
+
+### 13. SAP 데이터를 기반으로 적응형 카드 제작
+적응형 카드를 기반으로 메시지를 보냅니다.  
+![image](https://github.com/user-attachments/assets/3a3e238f-1b61-45be-8ec6-2d3e23280ac9)
+![image](https://github.com/user-attachments/assets/e9dedeac-9440-4ef1-a422-e6bd980e1cd9)
 
 
