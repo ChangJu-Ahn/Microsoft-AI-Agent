@@ -1,0 +1,22 @@
+kind: TaskDialog
+modelDisplayName: SAP 카테고리 기반 제품검색
+modelDescription: |-
+  제품 카테고리. 이 목록에서 입력으로 선택할 수 있는 카테고리는 단 하나뿐입니다. 대소문자를 구분하며 아래와 같이 정확히 작성해야 합니다.
+  Accessories;Notebooks;Laser Printers;Mice;Keyboards;Mousepads;Scanners;Speakers;Headsets;Software;PCs;Smartphones;Tablets;Servers;Projectors;MP3 Players;Camcorders
+inputs:
+  - kind: AutomaticTaskInput
+    propertyName: text
+    description: |-
+      제품 카테고리. 이 목록에서 입력으로 선택할 수 있는 카테고리는 단 하나뿐입니다. 대소문자를 구분하며 아래와 같이 정확히 작성해야 합니다.
+      Accessories;Notebooks;Laser Printers;Mice;Keyboards;Mousepads;Scanners;Speakers;Headsets;Software;PCs;Smartphones;Tablets;Servers;Projectors;MP3 Players;Camcorders
+    entity: StringPrebuiltEntity
+
+outputs:
+  - propertyName: text
+    description: "   SAP에서 찾은 주어진 카테고리의 제품. 다음 정보를 포함하는 HTML 테이블로 결과를 제시합니다.    ProductID; Name; Category; Description; Supplier; Price; Currency."
+
+action:
+  kind: InvokeFlowTaskAction
+  flowId: 390df432-6dac-b1b9-4e12-881ba0006e26
+
+outputMode: All
