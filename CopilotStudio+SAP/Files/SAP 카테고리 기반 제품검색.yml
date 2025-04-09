@@ -17,6 +17,6 @@ outputs:
 
 action:
   kind: InvokeFlowTaskAction
-  flowId: 390df432-6dac-b1b9-4e12-881ba0006e26
+  flowId: {Power Automate Flow ID you want to connect}
 
 outputMode: All
