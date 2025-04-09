@@ -33,8 +33,5 @@ Copilot Studio 및 Generative AI를 사용하여 SAP를 Microsoft Teams와 통�
 
 ---
 
-각 항목별 실습은 별도 readme로 구성됩니다. 순서를 따라 진행해 보세요! :)
-
-1) 에이전트 생성: 자연어를 기반으로 에이전트 템플릿을 간단하게 생성합니다.
-2) SAP 조회를 위한 Power Automate 생성: 이때는 SAP의 Product를 Category 기준으로 조회하는 Odata를 사용합니다.
-3) SAP Agent 배포: 간단히 만들어 진 Agent를 Microsoft Teams & Microsoft 365 Copilot으로 배포합니다.
+최종 실습 결과물의 에이전트는 files 폴더 내 Power Platform Soultion 형태로 저장되어 있습니다.
+템플릿이므로 다운로드 후 직접 원하는 테넌트에 Import 후 사용할 수 있습니다.
