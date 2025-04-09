@@ -13,7 +13,7 @@ inputs:
 
 outputs:
   - propertyName: output
-    name: text
+    name: Output
     description: SAP에서 찾은 주어진 제품 ID의 상세 정보. 반환된 정보 중 공백이 아닌 값만을 HTML 테이블로 결과를 제시합니다.
 
 action:
