@@ -1,6 +1,11 @@
 VoiceRAG: An Application Pattern for RAG + Voice Using Azure AI Search and the GPT-4o Realtime API for Audio
 ===
 
+> 이 데모는 아래 Microsoft Azure-Sample 깃헙리포를 참고했습니다.   
+> https://github.com/Azure-Samples/aisearch-openai-rag-audio
+
+---
+
 이번 데모는 Voice RAG 패턴의 에이전트입니다.   
 여기서는 영어, 그리고 한글로 직접 에이전트에게 질문하며, 시나리오는 다음과 같습니다.
 
