@@ -52,11 +52,16 @@ Coming Soon...
 <br/>
 
 # Step.10
-<img width="799" alt="image" src="https://github.com/user-attachments/assets/98d33c16-c3aa-4c81-9fc4-e81de9f4afdd" />
+![image](https://github.com/user-attachments/assets/7f30bd6e-2a3e-4dc2-aa58-19cf0cf138ca)
 
 <br/>
 
 # Step.11
+<img width="799" alt="image" src="https://github.com/user-attachments/assets/98d33c16-c3aa-4c81-9fc4-e81de9f4afdd" />
+
+<br/>
+
+# Step.12
 **다중 언어를 지원하고 싶다? AI가 수신된 이메일의 언어를 판단하고, 그에 맞게 prompt를 조정한다면 한글로도 회신 가능**
 <img width="803" alt="image" src="https://github.com/user-attachments/assets/038d636a-346d-42ba-bec6-ea5486e7400d" />
 
