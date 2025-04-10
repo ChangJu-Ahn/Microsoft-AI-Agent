@@ -9,7 +9,7 @@ VoiceRAG: An Application Pattern for RAG + Voice Using Azure AI Search and the G
 이번 데모는 Voice RAG 패턴의 에이전트입니다.   
 여기서는 영어, 그리고 한글로 직접 에이전트에게 질문하며, 시나리오는 다음과 같습니다.
 
-1) Power Automate, Logic Apps, Azure Data Factory(in Microsoft Fabric)을 통해 SAP 데이터를 가져올 수 있습니다.
+1) Power Automate, Logic Apps, Azure Data Factory(in Microsoft Fabric)에는 다양한 SAP 커넥터를 제공합니다.
 2) 여기서는 위 도구를 통해서 SAP의 품목정보를 Azure Blob Storage에 엑셀 파일 형태로 저장합니다.
 3) Azure Blob Storage에 엑셀이 저장될 때 Azure OpenAI를 통해 Embedding 처리 후 Azure AI Search에 저장합니다.
 4) 이후 Agent 앱에서 GPT-4o Realtim API for Audio를 사용하여 Azure AI Search의 값을 참고해 대답합니다.
