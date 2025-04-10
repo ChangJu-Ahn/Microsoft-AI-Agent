@@ -14,11 +14,13 @@ https://techcommunity.microsoft.com/blog/sapapplications/sap--teams-integration-
 완성된 데모 영상 #1 (SAP AI Agent in Microsoft Teams)
 ===
 [![Copilot Studio + SAP](https://img.youtube.com/vi/HkWA80HQHx4/maxresdefault.jpg)](https://youtu.be/HkWA80HQHx4)
+> 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
 ----
 
 완성된 데모 영상 #2 (SAP AI Agent in Microsoft 365 Copilot)
 == 
 [![Copilot Studio + SAP + M365 Copilot](https://img.youtube.com/vi/I3fVuDAATdk/maxresdefault.jpg)](https://youtu.be/I3fVuDAATdk)
+> 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
 ----
 
 실습 시나리오
