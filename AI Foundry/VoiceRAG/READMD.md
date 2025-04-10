@@ -16,7 +16,7 @@ VoiceRAG: An Application Pattern for RAG + Voice Using Azure AI Search and the G
 
 <br/>
 
-> SAP를 정말 연동할 수 있냐거요? SAP 연결하는 게 어렵지 않냐고요?   
+> SAP를 정말 연동할 수 있냐고요? SAP 연결하는 게 어렵지 않냐고요?   
 > 어렵지 않아요. [여기](<https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/CopilotStudio%2BSAP/2)%20SAP%20%EC%A1%B0%ED%9A%8C%EB%A5%BC%20Automate%20%EC%83%9D%EC%84%B1.md>)를 참고해 보세요.
 
 
