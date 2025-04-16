@@ -1,4 +1,4 @@
-Autonomous Agent + Deep reasoning model
+Autonomous Agent
 ===
 Copilot Studio의 Autonomous 기능을 이용하여 Words, PDF, 그리고 Web(Microsoft 고객 사례) Grounding 후 Deep reasoning modeld을 활용하여 간단히 제작한 Autonomous Agent 입니다.
 
