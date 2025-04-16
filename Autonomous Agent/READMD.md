@@ -3,6 +3,13 @@ Coming Soon...
 다음 시나리오를 만들기 위한 가이드를 업로드할 예정입니다.   
 아래는 Words, PDF, 그리고 Web(Microsoft 고객 사례) Grounding 후 Deep reasoning modeld을 활용하여 간단히 제작한 Autonomous Agent 입니다.
 
+----
+
+완성된 데모 영상 #1 (SAP AI Agent in Microsoft Teams)
+===
+[![Copilot Studio Autonomous Agent](https://img.youtube.com/vi/LFATqcTkjhg/maxresdefault.jpg)](https://youtu.be/LFATqcTkjhg)
+> 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
+
 --
 
 # Step.1
