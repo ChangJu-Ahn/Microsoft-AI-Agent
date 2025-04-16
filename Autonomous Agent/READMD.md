@@ -1,7 +1,6 @@
-Autonomous Agent + Deep Readoning Model
+Autonomous Agent + Deep reasoning model
 ===
-다음 시나리오를 만들기 위한 가이드를 업로드할 예정입니다.   
-아래는 Words, PDF, 그리고 Web(Microsoft 고객 사례) Grounding 후 Deep reasoning modeld을 활용하여 간단히 제작한 Autonomous Agent 입니다.
+Copilot Studio의 Autonomous 기능을 이용하여 Words, PDF, 그리고 Web(Microsoft 고객 사례) Grounding 후 Deep reasoning modeld을 활용하여 간단히 제작한 Autonomous Agent 입니다.
 
 ----
 
