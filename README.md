@@ -19,3 +19,6 @@
 5) Copilot Studio + SAP
    - 고객에게 Copilot은 안전하고 강력한 소통 창구가 될 수 있습니다.
    - 우리 한국인이 좋아하는 단짠 조합: 누구에게나 어려운 SAP와 Agent의 대중화를 이끄는 로우코드 툴(Copilot Studio)이 만났습니다. 
+6) Copilot Agent - Agent Builder
+   - 5분만에 나만의 HR Agent를 만들 수 있을까요? 직접 데모를 보시면 됩니다.
+   - **Copilot is UI**, Copilot 또는 Copilot Chat에서 가장 간단하게 만들 수 있는 제작 도구인 Agent Builder를 활용해 봅니다.
