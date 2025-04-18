@@ -30,7 +30,7 @@
 이는 이메일 본문에서 필요한 내용만 뽑아 낸다거나, Autonomous Agent를 실행하기 전 다양한 작업을 함께 진행할 수 있습니다.
 ![image](https://github.com/user-attachments/assets/4be0cc5b-adf1-41ed-b60e-f5d42ffed9e5)
 
-    > (1)항을 응용하면 지금은 이메일이지만, Automate를 통해서 Copilot Studio의 수 많은 에이전트를 직접 실행할 수 있습니다.
+    > (1)항을 응용하면 지금은 이메일이지만, Automate를 통해서 Copilot Studio의 수 많은 에이전트를 직접 실행할 수 있습니다.    
     > 만약 지금 사용하는 Automate 프로세스에서 Autonomous Agent를 호출한다? SAP 트랜잭션 혹은 우리 레거시 시스템에서 호출한다? 모두 가능한 시나리오입니다.
     ![image](https://github.com/user-attachments/assets/faeec287-06c3-4ea4-bbf5-1d3dd7cd52e0)
 
