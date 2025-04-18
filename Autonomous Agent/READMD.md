@@ -1,6 +1,14 @@
 Autonomous Agent
 ===
-Copilot Studio의 Autonomous 기능을 이용하여 Words, PDF, 그리고 Web(Microsoft 고객 사례) Grounding 후 Deep reasoning modeld을 활용하여 간단히 제작한 Autonomous Agent 입니다.
+여기서는 Copilot Studio의 Autonomous 기능을 이용하여 다양한 데이터소스를 그라운딩하여 Deep reasoning modeld을 활용합니다.   
+이 데모에서는 총 3개의 데이터 소스를 사용합니다. (Words, PDF, Web)
+
+<br/>
+  
+2024/4/18일, 현재 중요한 AI Orchestration 기능은 영어만 지원합니다. 한글은 24년 상반기 안으로 지원될 예정입니다.
+
+> 물론, 아래 데모 영상의 완성 템플릿은 아래 경로에서 제공합니다! :)    
+> https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/Autonomous%20Agent/Files/AutonomousandDeepReasoning_1_0_0_2_managed.zip
 
 ----
 
