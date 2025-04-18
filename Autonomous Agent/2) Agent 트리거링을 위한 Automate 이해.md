@@ -26,6 +26,10 @@
 
 <br/>
 
+5) 다음과 같이 정상적으로 보인다면? 준비 완료입니다.     
+만약 Copilot Studio Connector에서 커넥션이 없다면 **연결 참조 변경**에서 신규 커넥션을 생성합니다.   
+    <img width="650" alt="image" src="https://github.com/user-attachments/assets/77d42935-faa8-4f78-81c0-9131bde62429" />
+
 ---
 
 Automate에서 익숙하다면, 지금 아래 보이는 2개가 무한한 응용이 가능하다는 점을 이해하실 수 있습니다.   
