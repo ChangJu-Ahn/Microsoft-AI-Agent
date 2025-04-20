@@ -173,19 +173,14 @@ Automate에서는 SAP 제품정보의 상세 값을 JSON값으로 반환합니�
 <br/>
 
 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/CopilotStudio%2BSAP/Files/SAP%20Adaptive%20Card.json)에 저장된 Adaptive Card json 템플릿을 복사하여 붙여넣습니다.   
-이때 빨간색 표시 박스를 클릭하여 '수식 편집'으로 변경해서 저장합니다.
+이때 빨간색 표시 박스를 클릭하여 '수식 편집'으로 변경해서 저장합니다.   
+
+<br/>
+
 ![image](https://github.com/user-attachments/assets/5151c83f-3674-4d3c-b8c5-fa8b73238c7e)
 
 > 위 정보는 미리 **디자인 및 값을 바인딩**한 적응형 카드 템플릿입니다.   
 > 다양한 템플릿을 만들 수 있는 적응형 카드 디자이너 웹 사이트는 [여기](https://adaptivecards.io/designer/)를 참고할 수 있습니다.
-
-<br/>
-
-잘 마무리 했다면, 'HT-6102 제품 상세정보' 라고 입력해서 테스트를 했을 때 다음과 같이 나올 수 있습니다.
-<img width="265" alt="image" src="https://github.com/user-attachments/assets/99f57cf5-8903-4fac-b8ec-ecb3351ceaa4" />
-
-> 만약 Product ID 값 외에 아무것도 안 나온다면?   
-> Power Automate에서 반환하는 값이 잘못 되어있을 수 있습니다. 꼭 이번 페이지의 9번 순서의 Automate 설정을 잘 확인하세요.
 
 <br/>
 
@@ -204,7 +199,16 @@ properties:
   productName: String
 ```
 
+잘 마무리 했다면, 'HT-6102 제품 상세정보' 라고 입력해서 테스트를 했을 때 다음과 같이 나올 수 있습니다.
 <br/>
+
+<img width="265" alt="image" src="https://github.com/user-attachments/assets/99f57cf5-8903-4fac-b8ec-ecb3351ceaa4" />
+
+> 만약 Product ID 값 외에 아무것도 안 나온다면?   
+> Power Automate에서 반환하는 값이 잘못 되어있을 수 있습니다. 꼭 이번 페이지의 9번 순서의 Automate 설정을 잘 확인하세요.
+
+<br/>
+
 
 최종 화면은 다음과 같고, 적응형 카드에서 저장한 값들이 아래의 출력 변수에 담기는 구조가 됩니다.
 <img width="763" alt="image" src="https://github.com/user-attachments/assets/4cce43ea-4b3e-4407-8ad3-f86772018567" />
