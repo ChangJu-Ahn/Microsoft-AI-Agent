@@ -14,7 +14,7 @@ Autonomous Agent
 
 완성된 데모 영상 (Low Code 라이선스 가이드를 위한 Autonomous Agent)
 ===
-[![Copilot Studio Autonomous Agent](https://img.youtube.com/vi/LFATqcTkjhg/maxresdefault.jpg)](https://youtu.be/LFATqcTkjhg)
+[![Copilot Studio Autonomous Agent](https://img.youtube.com/vi/ZJIZVMDc0QQ/maxresdefault.jpg)](https://youtu.be/ZJIZVMDc0QQ)
 > 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
 
 --- 
