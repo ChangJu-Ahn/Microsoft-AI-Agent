@@ -31,3 +31,8 @@
 ## 7) Copilot Studio Toolkit - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/Copilot%20Studio%20Toolkit)
    - 마이크로소프트 로우코드 플랫폼, Power Platform은 다양한 고급 템플릿을 고객에게 무상으로 제공합니다.
    - 로우코드로 만든 에이전트를 테스트하고, 관리하고, 응용할 수 있는 툴깃을 직접 설치하고 사용해 봅니다.
+
+## 8) Azure Speech Avatar & Copilot Studio - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/Copilot%20Studio%20Toolkit)
+   - Copilot Studio는 기본 기능 뿐 아니라 다양한 채널로 배포할 수 있습니다. 
+   - 이번 영상에서는 일반 에이전트 형태도 가능하지만, 아바타와 결합하여 아바타가 반응하는 모든 프로세스를 Copilot Studio에서 관리할 수 있도록 합니다.
+   - 이게 된다면? Copilot Studio에서 사용할 수 있는 모든 기능을 외부 시스템에도 직접 이식할 수 있다는 개념을 이해할 수 있습니다.
