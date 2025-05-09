@@ -3,7 +3,7 @@
 
 <br/>
 
-## 1) AI Foundry - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/AI%20Foundry)
+## 1) RAG + Voide using GPT-4o Realtime API - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/RAG%20%2B%20Voide%20using%20GPT-4o%20Realtime%20API)
    - 자연어로 SAP 데이터를 물어볼 수 있다!
    - RAG Voice(Azure AI Search, Azure OpenAI Embedding and Reailtime Voicde + SAP)
 
