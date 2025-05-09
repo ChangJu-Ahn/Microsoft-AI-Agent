@@ -7,7 +7,7 @@
    - 자연어로 SAP 데이터를 물어볼 수 있다!
    - RAG Voice(Azure AI Search, Azure OpenAI Embedding and Reailtime Voicde + SAP)
 
-## 2) AI Search + Copilot Studio - [여기]((https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/AISearch%2BCopilotStudio)
+## 2) AI Search + Copilot Studio - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/AISearch%2BCopilotStudio)
    - 이제 우리는 Agent 대중화 목표로 해야 합니다.
    - 대표적인 Embedding Search 제품인 AI Search를 기반으로 빠르게 Agent를 확장합니다.
 
