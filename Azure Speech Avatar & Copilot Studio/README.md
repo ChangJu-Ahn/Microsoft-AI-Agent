@@ -6,7 +6,7 @@ Copilot Studio는 로우코드 기반의 다양한 프로세스를 연결할 수
 
 연동하는 시스템은 코드 레벨에서 동작하는 Azure Speech & Avatar이고, Copilot Studio는 아바타가 대답하는 모든 응답을 책임집니다.
 
-그리고 마지막에는 여기[]에서 적용했던 컨셉을 응용하여 Copilot Studio에서 SAP를 직접 연결, 아바타가 반응하는 시나리오입니다.
+그리고 마지막에는 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/CopilotStudio%2BSAP/READMD.md)에서 적용했던 컨셉을 응용하여 Copilot Studio에서 SAP를 직접 연결, 아바타가 반응하는 시나리오입니다.
 
 ----
 
