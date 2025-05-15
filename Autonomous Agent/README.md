@@ -5,7 +5,7 @@ Autonomous Agent
 
 <br/>
   
-2024/4/18일, 현재 중요한 AI Orchestration 기능은 영어만 지원합니다. 한글은 24년 상반기 안으로 지원될 예정입니다.
+2024/4/18일, 현재 중요한 AI Orchestration 기능은 영어만 지원합니다. 한글은 25년 상반기 안으로 지원될 예정입니다.
 
 > 물론, 아래 데모 영상의 완성 템플릿은 아래 경로에서 제공합니다! :)    
 > https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/Autonomous%20Agent/Files/AutonomousandDeepReasoning_1_0_0_2_managed.zip
