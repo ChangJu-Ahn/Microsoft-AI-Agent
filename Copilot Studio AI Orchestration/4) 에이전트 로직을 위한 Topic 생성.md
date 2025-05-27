@@ -52,7 +52,7 @@
 
 </br>
 
-그리고 이전에 입력받았던 변수를 그대로 입력 변수로 전달합니다.
+그리고 이전에 입력받았던 변수를 그대로 입력 변수로 전달합니다.   
 ![image](https://github.com/user-attachments/assets/847f9afd-b3f6-485c-8eea-b3f9cd0c8d41)
 
 </br>
