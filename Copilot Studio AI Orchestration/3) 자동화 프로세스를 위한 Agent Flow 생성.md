@@ -52,14 +52,14 @@ Power Automate는 1,400개 이상의 커넥터가 이미 만들어져 있습니�
 
 </br>
 
-### 9. Flow 이름 변경
+### 10. Flow 이름 변경
 Agent Flow의 이름과 설명을 변경하기 위해 다음과 같은 경로로 클릭하며 넘어갑니다.   
 그리고 에이전트 플로우의 이름을 **휴가 상신 자동화**로 변경합니다.
 ![image](https://github.com/user-attachments/assets/82aedaa9-2c12-455e-ad4d-32ebfe9cf263)
 
 </br>
 
-### 10. 게시 및 테스트
+### 11. 게시 및 테스트
 테스트를 위해 다음 이미지와 같이 **게시**를 진행합니다.
 ![image](https://github.com/user-attachments/assets/934c9775-1a2b-40fd-92ff-667f76398873)
 
