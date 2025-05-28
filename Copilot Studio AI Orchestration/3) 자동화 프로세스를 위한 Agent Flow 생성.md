@@ -1,13 +1,13 @@
 실습 - 자동화 프로세스를 위한 Agent Flow 생성
 ===
 
-### 7. 자동화를 위한 Agent Flow 생성
+### 1. 자동화를 위한 Agent Flow 생성
 다음과 같은 경로로 들어가 신규 Flow를 생성합니다.
 ![image](https://github.com/user-attachments/assets/e2a8d151-1b7c-48f5-8a07-fd02c43bd478)
 
 </br>
 
-### 8. Flow 내 트리거 및 액션 설정
+### 2. Flow 내 트리거 및 액션 설정
 우선, 해당 Flow를 실행하기 위한 트리거를 설정합니다. 여기서는 에이전트에서 호출하기 때문에 **에이전트가 흐름을 호출할 때**로 변경합니다.
 ![image](https://github.com/user-attachments/assets/88d8b8f5-8fdc-4cf4-882e-e892b17d1c99)
 
@@ -17,7 +17,7 @@
 
 </br>
 
-### 9. Outlook 365 이메일 커넥터 설정
+### 3. Outlook 365 이메일 커넥터 설정
 Power Automate는 1,400개 이상의 커넥터가 이미 만들어져 있습니다.   
 또한, 고객의 레거시 API를 기반으로 만들 수 있는 **커스텀 커넥터**라는 기능도 제공합니다. 여기서는 이미 만들어진 아웃룩 커넥터를 사용합니다.
 ![image](https://github.com/user-attachments/assets/f9f2b66e-ce0f-45c9-a3f7-caac43d2142c)
@@ -54,14 +54,14 @@ Power Automate는 1,400개 이상의 커넥터가 이미 만들어져 있습니�
 
 </br>
 
-### 10. Flow 이름 변경
+### 4. Flow 이름 변경
 Agent Flow의 이름과 설명을 변경하기 위해 다음과 같은 경로로 클릭하며 넘어갑니다.   
 그리고 에이전트 플로우의 이름을 **휴가 상신 자동화**로 변경합니다.
 ![image](https://github.com/user-attachments/assets/82aedaa9-2c12-455e-ad4d-32ebfe9cf263)
 
 </br>
 
-### 11. 게시 및 테스트
+### 5. 게시 및 테스트
 테스트를 위해 다음 이미지와 같이 **게시**를 진행합니다.
 ![image](https://github.com/user-attachments/assets/934c9775-1a2b-40fd-92ff-667f76398873)
 
