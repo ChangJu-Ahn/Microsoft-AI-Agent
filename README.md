@@ -34,7 +34,7 @@
 
 ## 8) Azure Speech Avatar & Copilot Studio - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/Azure%20Speech%20Avatar%20%26%20Copilot%20Studio)
    - Copilot Studio는 기본 기능 뿐 아니라 다양한 채널로 배포할 수 있습니다. 
-   - 이번 영상에서는 일반 에이전트 형태도 가능하지만, 아바타와 결합하여 아바타가 반응하는 모든 프로세스를 Copilot Studio에서 관리할 수 있도록 합니다.
+   - 일반 에이전트 형태도 가능하지만, 아바타와 결합하여 아바타가 반응하는 모든 프로세스를 Copilot Studio에서 관리할 수 있도록 합니다.
    - 이게 된다면? Copilot Studio에서 사용할 수 있는 모든 기능을 외부 시스템에도 직접 이식할 수 있다는 개념을 이해할 수 있습니다.
 
 ## 9) Copilot Studio AI Orchestration - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/Copilot%20Studio%20AI%20Orchestration)
