@@ -39,16 +39,18 @@ Power Automate는 1,400개 이상의 커넥터가 이미 만들어져 있습니�
 
 여기서는 **Copilot으로 식 만들기** 기능을 이용해 자연어로 엑셀과 같은 Power Fx 함수를 생성합니다. 그리고 확인을 누릅니다.
 ![image](https://github.com/user-attachments/assets/8e3ab925-10d7-4dcb-80ff-cd0344e26368)
-![image](https://github.com/user-attachments/assets/c920c540-6be2-44cc-9633-14d7121f41e9)
+![image](https://github.com/user-attachments/assets/f9d4d70a-e36a-4ecc-b855-453c7119aced)
+
 
 ```
-입력 트리거링에서 날짜만을 텍스트로 전달받도록 되어있어. 이 변수를 현재 입력항목에 맞는 시간이 포함된 날짜 타입으로 변경해 줘
+트리거의 텍스트 입력변수인 날짜 항목을, '2017-08-29T04:00:00'과 같이 변경해 줘
 ```
 
 </br>
 
-위에서 입력한 값을 **'종료 시간'**에도 복사/붙여넣기 하고, 마지막으로 표준 시간대를 **'Seoul'**로 변경합니다.
-![image](https://github.com/user-attachments/assets/1b454dcc-8c82-4ea6-9520-8ba12f4efd63)
+위에서 입력한 값을 **종료 시간**에도 복사/붙여넣기 하고, 마지막으로 표준 시간대를 **'Seoul'**로 변경합니다.
+![image](https://github.com/user-attachments/assets/c901f1bc-63ff-4259-8ea0-9238f1ff160d)
+
 
 </br>
 
@@ -75,7 +77,7 @@ Agent Flow의 이름과 설명을 변경하기 위해 다음과 같은 경로로
 ![image](https://github.com/user-attachments/assets/12659dcc-f018-47b5-be93-41c14cb3a353)
 
 ```
-formatDateTime(triggerBody()?['text'], 'yyyy-MM-dd')
+formatDateTime(triggerBody()?['text'], 'yyyy-MM-ddTHH:mm:ss')
 ```
 
 
