@@ -32,4 +32,4 @@ Copilot Studio AI Orchestration 설명
    
 <br/>
 
-> 파워플랫폼 솔루션 Import 참고 문서는 [여기](https://learn.microsoft.com/ko-kr/power-apps/maker/data-platform/import-update-export-solutions)를 참고하여 주세요.
+> 파워플랫폼 솔루션 Import 참고 문서는 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/Copilot%20Studio%20AI%20Orchestration/Files/KoreaTourAgent_1_0_0_1.zip)를 참고하여 주세요.
