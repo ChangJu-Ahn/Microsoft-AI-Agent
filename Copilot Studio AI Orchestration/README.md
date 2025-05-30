@@ -1,7 +1,13 @@
 Copilot Studio AI Orchestration 실습
 ============
 이 실습에서는 Copilot Studio의 핵심 AI 기능인 AI Orchestration을 이해합니다.
-이는 일반적인 챗봇을 넘어 에이전트로 가는 역할을 하고, 한 개의 의도만 처리할 수 있었던 기본 챗복과 다르게 여러 개의 의도를 LLM이 파악하어 실행계획을 수립합니다. 
+이는 일반적인 챗봇을 넘어 에이전트로 가는 역할을 하고, 한 개의 의도만 처리할 수 있었던 기본 챗복과 다르게 여러 개의 의도를 LLM이 파악하어 실행계획을 수립합니다.    
+
+자세한 설명은 아래 링크에서도 다시한번 참고할 수 있어요! 😎
+
+https://microsoft.github.io/mwkorea/copilot/CPSAIorchestration/
+
+</br>
 
 Copilot Studio AI Orchestration 설명
 ===
