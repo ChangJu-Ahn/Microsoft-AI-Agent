@@ -26,8 +26,9 @@ Copilot Studio AI Orchestration 설명
     2) 실시간 날씨 데이터를 API 기반으로 오늘, 내일의 일기예보를 공유
     3) 캘린더의 휴가 일정을 자연어로 상신
 
+</br>
    
-기타
+기타 - 1)
 ==
 최종 실습 결과물의 에이전트는 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/CopilotStudio%2BSAP/Files/SAPProductAgent_1_0_0_1_managed.zip)에 Power Platform Soultion 형태로 저장되어 있습니다.     
 원하는 고객은 다운로드 후 직접 고객 테넌트에 Import 하여 사용할 수 있습니다. 사용하는 방법은 다음과 같습니다.
@@ -39,3 +40,17 @@ Copilot Studio AI Orchestration 설명
 <br/>
 
 > 파워플랫폼 솔루션 Import 참고 문서는 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/Copilot%20Studio%20AI%20Orchestration/Files/KoreaTourAgent_1_0_0_1.zip)를 참고하여 주세요.
+>
+
+</br>
+
+기타 - 2)
+==
+Copilot Studio에서는 다음과 같은 다양한 에이전트를 통합하여 **멀티 에이전트** 기능을 제공합니다.   
+이 기능 또한, AI Orchestraion의 핵심 기능이 서로 간의 에이전트를 조율하는 역할을 담당합니다.
+
+또한,  Copilot Studio의 에이전트 뿐 아니라, Microsoft Fabric, Azure AI Foundry, 그리고 M365 Agents SDK와도 통합되어 운영됩니다.
+
+![image](https://github.com/user-attachments/assets/da2aee81-9449-4183-b4f8-aed6ffbe895a)
+![image](https://github.com/user-attachments/assets/293725c2-c401-46ef-8e32-6b951792f946)
+![image](https://github.com/user-attachments/assets/a3bff054-184f-4254-b2b7-0b3789d41888)
