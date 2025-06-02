@@ -30,7 +30,7 @@ Copilot Studio AI Orchestration 설명
    
 기타 - 1)
 ==
-최종 실습 결과물의 에이전트는 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/CopilotStudio%2BSAP/Files/SAPProductAgent_1_0_0_1_managed.zip)에 Power Platform Soultion 형태로 저장되어 있습니다.     
+최종 실습 결과물의 에이전트는 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/Copilot%20Studio%20AI%20Orchestration/Files)에 Power Platform Soultion 형태로 저장되어 있습니다.     
 원하는 고객은 다운로드 후 직접 고객 테넌트에 Import 하여 사용할 수 있습니다. 사용하는 방법은 다음과 같습니다.
 
 1) 해당 파일을 깃헙 리포에서 다운로드
@@ -39,7 +39,7 @@ Copilot Studio AI Orchestration 설명
    
 <br/>
 
-> 파워플랫폼 솔루션 Import 참고 문서는 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/Copilot%20Studio%20AI%20Orchestration/Files/KoreaTourAgent_1_0_0_1.zip)를 참고하여 주세요.
+> 파워플랫폼 솔루션 Import 참고 문서는 [여기](https://learn.microsoft.com/ko-kr/power-apps/maker/data-platform/import-update-export-solutions)를 참고하여 주세요.
 >
 
 </br>
