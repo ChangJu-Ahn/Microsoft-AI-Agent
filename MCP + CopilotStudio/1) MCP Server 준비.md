@@ -44,18 +44,18 @@ npx @modelcontextprotocol/inspector
 
 
 ### 2. MCP Inspector UR 실행
-정상 동작 후 세션 토큰까지 발급된 링크를 클릭한다. (클릭은 컨트롤 + 마우스 좌클릭)
+정상 동작 후 세션 토큰까지 발급된 링크를 클릭합니다. (클릭은 컨트롤 + 마우스 좌클릭)
 ![image](https://github.com/user-attachments/assets/fb28fb30-9822-4710-885f-6e5ebe8f178f)
 
 ### 3. 테스트를 위한 MCP Server 정보 입력
-MCP Inspector Tool은 모든 MCP Server를 테스트할 수 있도록 설계되어 있다. 여기서는 위 내용 중 **(2)항에서 복사한 URL**을 입력하고 **Connect**를 클릭한다.
+MCP Inspector Tool은 모든 MCP Server를 테스트할 수 있도록 설계되어 있다. 여기서는 위 내용 중 **(2)항에서 복사한 URL**을 입력하고 **Connect**를 클릭합니다.
 ![image](https://github.com/user-attachments/assets/e300ac85-25d8-4b92-9ced-7e0321c870cd)
 
 ### 4. Tool 반환 및 MCP Server 동작 테스트
-MCP Server가 정상적으로 동작한다면, 다음과 같이 **Tool** 이라는 버튼이 활성화된다.
+MCP Server가 정상적으로 동작한다면, 다음과 같이 **Tool** 이라는 버튼이 활성화됩니다.
 ![image](https://github.com/user-attachments/assets/a23ea5a9-7da8-4c1c-9627-f77a253c9a81)
 
-이후에는 해당 MCP Server가 가지고 있는 Tool List를 볼 수 있고, 테스트를 하게되면 다음과 같은 결과를 확인할 수 있다.
+이후에는 해당 MCP Server가 가지고 있는 Tool List를 볼 수 있고, 테스트를 하게되면 다음과 같은 결과를 확인할 수 있습니다.
 ![image](https://github.com/user-attachments/assets/44c69b30-b587-4c07-9161-3f3faee0c843)
 ![image](https://github.com/user-attachments/assets/b71c4c80-d25e-4e97-b8ee-c7979d8bdb80)
 
