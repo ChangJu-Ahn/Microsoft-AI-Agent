@@ -40,3 +40,7 @@
 ## 9) Copilot Studio AI Orchestration - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/Copilot%20Studio%20AI%20Orchestration)
    - Copilot Studio에서는 사용자의 의도(질문)을 파악할 수 있는 AI Orchestration 기능이 있습니다.
    - 이게 얼마나 유용한지, 그리고 로우코드에서도 AI 기반으로 에이전트를 어떻게 만들 수 있는지를 이해할 수 있습니다. 
+
+## 10) MCP(Model Context Protocol) + Copilot Studio - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/MCP%20+%20CopilotStudio)
+   - AI Agent는 MCP라는 프로토콜로 통합되는 시나리오가 많습니다. 그럼 SaaS 형태의 개발 툴에서도 이를 사용할 수 있을까요?
+   - 당연합니다! MCP를 사용한 AI 에이전트 생성은 물론, M365 Copilot & Copilot Chat까지 쉽게 결합이 가능합니다.
