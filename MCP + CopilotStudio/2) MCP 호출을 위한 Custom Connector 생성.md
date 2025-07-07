@@ -18,9 +18,9 @@
 
 
 ### 2. 기준정보 채우기
-[여기](https://learn.microsoft.com/ko-kr/microsoft-copilot-studio/agent-extend-action-mcp#mcp-server-schema-examples) 소스코드를 copy 해와서 메모장에 붙여넣기한다.
-최신 버전의 소스코드는 위를 참고할 수 있고, 만약 동일한 MCP Server를 사용한다면 아래 내용 중 default의 value인 **<Your Key>** 부분만 변경해 주면 된다.
-여기서 Key는 이전에 복사해 둔 Smithery URL에서 참고할 수 있다. 
+[여기](https://learn.microsoft.com/ko-kr/microsoft-copilot-studio/agent-extend-action-mcp#mcp-server-schema-examples) 소스코드를 copy 해와서 메모장에 붙여넣습니다.
+최신 버전의 소스코드는 위를 참고할 수 있고, 만약 동일한 MCP Server를 사용한다면 아래 내용 중 default의 value인 **<Your Key>** 부분만 변경합니다.
+여기서 Key는 이전에 복사해 둔 Smithery URL에서 참고할 수 있습니다.
 
 ```
 swagger: '2.0'
@@ -58,5 +58,9 @@ responses: {}
 securityDefinitions: {}
 tags: []
 security: []
-
 ```
+
+### 3. Swagger 기반의 Custom Connector 생성
+위에서 만들어 진 Swagger를 기반으로 복사/붙여넣기를 통해 커스텀 커넥터를 생성합니다.
+![image](https://github.com/user-attachments/assets/6c1700e9-175e-40ec-a2ee-410d20866b5a)
+
