@@ -11,7 +11,7 @@ https://microsoft.github.io/mwkorea/copilot/CPSAIorchestration/
 
 Copilot Studio AI Orchestration 설명
 ===
-[![Copilot Studio AI Orchestration](https://img.youtube.com/vi/NV-6gXz3Xug/maxresdefault.jpg)](https://youtu.be/NV-6gXz3Xug)
+[![Copilot Studio AI Orchestration](https://img.youtube.com/vi/zkLu6C7wp54/maxresdefault.jpg)](https://youtu.be/zkLu6C7wp54)
 > 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
 ----
 
