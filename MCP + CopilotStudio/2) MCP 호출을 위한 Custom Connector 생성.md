@@ -64,3 +64,8 @@ security: []
 위에서 만들어 진 Swagger를 기반으로 복사/붙여넣기를 통해 커스텀 커넥터를 생성합니다.
 ![image](https://github.com/user-attachments/assets/6c1700e9-175e-40ec-a2ee-410d20866b5a)
 
+
+### 4. Custom Connector 업데이트
+저장 후 이상이 없다면, 커넥터 업데이트 후 작업을 마무리합니다.
+![image](https://github.com/user-attachments/assets/6586095c-8ebf-47cd-977e-df4a5cf496d8)
+
