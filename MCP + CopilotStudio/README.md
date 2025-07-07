@@ -6,6 +6,7 @@ MCP + Copilot Studio 실습
 더 나아가서는 생산성 도구인 M365, 그리고 개인의 비서인 M365 Copilot(혹은 Copilot Chat)과도 결합할 수 있음을 의미합니다.
 
 일반 사용자, 유저 뿐 아니라 **개발자도 생산성**이 중요한 시대죠? 이 관점에서 함께 보시죠!  
+자세한 내용은 [여기](https://learn.microsoft.com/ko-kr/microsoft-copilot-studio/agent-extend-action-mcp)의 공식문서를 참고하시면 좋습니다.
 
 </br>
 
