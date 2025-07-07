@@ -21,7 +21,8 @@ MCP + Copilot Studio with Copilot Chat 설명
 == 
 
 1) MCP에서 유명한 사이트은 Smithery에서 특정 MCP Server를 선택합니다. (여기서는 이미지 생성 MCP Server)
-2) 로우코드 개발 도구인 Copilot Studio에서 해당 MCP를 호출할 수 있도록 설정합니다.
-3) 설정된 AI Agent 테스트하고, Copilot For AI - Copilot Chat(혹은 M365 Copilot) 에게 간단하게 배포하여 사용합니다. 
+2) Copilot Studio에서 사용할 수 있도록 로우코드 내의 Custom Connector를 생성합니다.
+3) 이후 Copilot Studio 기반의 AI Agent를 생성하고 MCP Server가 설정된 Custom Connector를 연결합니다.
+4) 설정된 AI Agent 테스트하고, Copilot For AI - Copilot Chat(혹은 M365 Copilot) 에게 간단하게 배포하여 사용합니다. 
 
 </br>
