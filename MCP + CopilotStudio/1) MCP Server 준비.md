@@ -43,7 +43,7 @@ npx @modelcontextprotocol/inspector
 ![image](https://github.com/user-attachments/assets/5e6f2dc9-6175-45b0-a0fb-01f94451026b)
 
 
-### 2. MCP Inspector UR 실행
+### 2. MCP Inspector URL 실행
 정상 동작 후 세션 토큰까지 발급된 링크를 클릭합니다. (클릭은 컨트롤 + 마우스 좌클릭)
 ![image](https://github.com/user-attachments/assets/fb28fb30-9822-4710-885f-6e5ebe8f178f)
 
