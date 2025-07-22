@@ -13,7 +13,7 @@
 
 </br>
 그리고 변수를 추가합니다. 여기서는 휴가일자, 사유 라는 두 개의 입력변수를 String type으로 생성합니다.   
-![image](https://github.com/user-attachments/assets/9324c394-9f04-4eb0-a7f7-a1ab8de89198)
+<img width="2000" height="1035" alt="image" src="https://github.com/user-attachments/assets/7fed318e-5f0f-47a9-9850-3dac08d5dfac" />
 
 </br>
 
