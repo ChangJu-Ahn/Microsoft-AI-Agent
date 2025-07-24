@@ -36,6 +36,18 @@ Edit SAP product data.
 Show SAP product details.
 Edit SAP product information.
 ```
+혹은
+```
+이 도구는 다음과 같은 쿼리를 처리할 수 있습니다.
+
+SAP 제품 업데이트
+SAP 제품 업데이트
+SAP 제품 데이터 업데이트
+SAP에서 제품 정보 편집
+SAP 제품 데이터 편집
+SAP 제품 세부 정보 표시
+SAP 제품 정보 편집
+```
 
 <img width="630" alt="image" src="https://github.com/user-attachments/assets/e287bf6c-cae0-409c-bcc1-005b258abf0c" />
 <br/>
