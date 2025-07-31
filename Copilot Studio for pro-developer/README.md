@@ -21,4 +21,11 @@ Copilot Studio through M365 Agents SDK 연동 데모
 > 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
 ----
 
+</br>
 
+[= 동영상 연동 필요]   
+Copilot Studio through Direct Line 연동 데모 
+===
+[![Copilot Studio AI Orchestration](https://img.youtube.com/vi/zkLu6C7wp54/maxresdefault.jpg)](https://youtu.be/zkLu6C7wp54)
+> 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
+----
