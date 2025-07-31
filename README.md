@@ -46,5 +46,5 @@
    - 당연합니다! MCP를 사용한 AI 에이전트 생성은 물론, M365 Copilot & Copilot Chat까지 쉽게 결합이 가능합니다.
 
 ## 11) 로우코드 AI 에이전트가 개발자를 만나다 - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/Copilot%20Studio%20through%20M365%20Agents%20SDK)
-   - 로우코드로 만들어진 AI 에이전트를 전문 개발자가 SDK로 확장한다면...정말 모든 걸 할 수 있겠죠? 이게 바로 생산성이죠!
+   - 로우코드로 만들어진 AI 에이전트를 전문 개발자가 함께할 수 있다면? 정말 모든 걸 할 수 있겠죠? 이게 바로 생산성이죠!
    - 간단한 샘플코드로 아이디어를 얻어가세요! :) feat. 깃헙 코파일럿
