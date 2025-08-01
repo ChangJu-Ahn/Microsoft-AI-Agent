@@ -20,5 +20,5 @@ https://portal.azure.com에 접속하여, Entra ID -> App Registrations을 들�
    > 아래 이미지는 깃헙 코스페이스에서 서비스합니다. 하여, 해당 URL을 직접 입력한 경우입니다.
    > 샘플 코드를 fork하여 로컬에 다운로드 받는다면, http://localhost:5173/ 을 입력하셔야 합니다.
    
-
+### 3. SSO 인증을 위한 '신규 App Registration'을 생성합니다. 
 
