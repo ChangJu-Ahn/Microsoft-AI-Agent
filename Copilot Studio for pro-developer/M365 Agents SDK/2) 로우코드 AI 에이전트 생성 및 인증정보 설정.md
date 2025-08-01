@@ -31,10 +31,6 @@ Instructions:
 - 각 답변에 필요한 예시를 추가합니다.
 ```
 
-### 2. SSO 인증을 위한 '신규 App Registration'을 생성합니다. 
-<img width="778" height="675" alt="image" src="https://github.com/user-attachments/assets/100d07f1-3598-4deb-918f-38630952b541" />
-<img width="1155" height="1050" alt="image" src="https://github.com/user-attachments/assets/a134b6df-14ef-4d2d-ad86-00625ee5a7ab" />
+### 2. 
 
-
-
-<img width="1362" height="328" alt="image" src="https://github.com/user-attachments/assets/cd2b36e7-3af4-45b5-9a2f-59191b09145a" />
+<img width="1311" height="495" alt="image" src="https://github.com/user-attachments/assets/aa494c9e-d3a6-4ed0-b5f4-1e1eb83f08d9" />
