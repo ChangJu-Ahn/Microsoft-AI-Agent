@@ -1,13 +1,13 @@
-로우코드 AI 에이전트를 생성합니다.
+Copilot Studio 제품을 잘 설명하는 AI 에이전트 제작
 ===
 
 **[중요]**   
 여기서는 Copilot Studio 제품을 잘 설명해 주기 위해 공식 문서 URL을 참고하는 간단한 에이전트를 만들어봅니다.   
 이미 로우코드 AI 에이전트가 있다면, xx 항목부터 참고해서 인증정보만 설정하시면 됩니다.
 
-### 1. Entra ID App Registraion 등록
-https://portal.azure.com에 접속하여, Entra ID -> App Registrations을 들어갑니다.
-<img width="509" height="978" alt="image" src="https://github.com/user-attachments/assets/20cdfb0b-c183-4388-a97a-d85a3061dfd6" />
+### 1. 새로운 Custom Agent를 생성합니다.
+이미 로우코드 AI 에이전트가 있거나, 다른 컨셉이 있다면 이 깃헙에 있는 다양한 내용을 참고하여 만들 수 있습니다.
+
 
 ### 2. SSO 인증을 위한 '신규 App Registration'을 생성합니다. 
 <img width="778" height="675" alt="image" src="https://github.com/user-attachments/assets/100d07f1-3598-4deb-918f-38630952b541" />
