@@ -32,5 +32,5 @@ Instructions:
 ```
 
 ### 2. 
+<img width="1373" height="287" alt="image" src="https://github.com/user-attachments/assets/067a8e74-c8e6-4742-9b4b-d3868e015de7" />
 
-<img width="1311" height="495" alt="image" src="https://github.com/user-attachments/assets/aa494c9e-d3a6-4ed0-b5f4-1e1eb83f08d9" />
