@@ -1,4 +1,5 @@
-**원본 정보는 마이크로소프트 솔루션 엔지니어인 Parag Dessai의 유튜브에서 확인할 수 있습니다.  https://www.youtube.com/@ParagDessai**
+**원본 정보는 마이크로소프트 솔루션 엔지니어인 Parag Dessai의 유튜브에서 확인할 수 있습니다.**
+> https://www.youtube.com/@ParagDessai
 
 </br>
 
