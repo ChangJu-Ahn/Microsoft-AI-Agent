@@ -29,3 +29,20 @@ https://portal.azure.com에 접속하여, Entra ID -> App Registrations을 들�
 
 이후 다음과 같이 **Copilot Studio**를 검색해 아래 이미지의 권한을 선택하고 완료합니다.
 <img width="1445" height="1117" alt="image" src="https://github.com/user-attachments/assets/94d95164-b044-4a21-8898-c74f6dd01d17" />
+
+### 4. 설정한 권한을 다음과 같이 승인합니다.
+<img width="1384" height="963" alt="image" src="https://github.com/user-attachments/assets/42cda5dd-da31-445c-97d5-d18f61d1fc48" />
+
+### 5. 인증을 위한 secret을 생성합니다.
+<img width="1903" height="1131" alt="image" src="https://github.com/user-attachments/assets/fbe9fa54-9db6-4a06-b3d5-eaed1d7a2584" />
+
+</br>
+
+그리고 아래 정보는 사용해야 하므로, 별도 공간(예: 메모장)에 기록해 둡니다.
+<img width="1362" height="328" alt="image" src="https://github.com/user-attachments/assets/8a50eace-8b92-43d8-ab1d-b8ce54d96041" />
+
+---
+
+Entra ID 관련한 설정은 완료했습니다! :) 이제는 로우코드 AI 에이전트를 만들어볼까요?
+
+
