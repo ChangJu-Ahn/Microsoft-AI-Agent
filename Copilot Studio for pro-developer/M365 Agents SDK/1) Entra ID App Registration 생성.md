@@ -20,5 +20,12 @@ https://portal.azure.com에 접속하여, Entra ID -> App Registrations을 들�
    > 아래 이미지는 깃헙 코스페이스에서 서비스합니다. 하여, 해당 URL을 직접 입력한 경우입니다.
    > 샘플 코드를 fork하여 로컬에 다운로드 받는다면, http://localhost:5173/ 을 입력하셔야 합니다.
    
-### 3. SSO 인증을 위한 '신규 App Registration'을 생성합니다. 
+### 3. 권한을 부여할 수 있는 API Permissions을 설정합니다.
+다음과 같은 순서로 접근 후 API Permission을 설정합니다.
+<img width="1947" height="1197" alt="image" src="https://github.com/user-attachments/assets/56050ef4-5fd7-401b-b915-d2721a79aca5" />
+> 만약 Permission을 검색했는데, Power Platform API이 안 나온다면? [여기](https://learn.microsoft.com/en-us/power-platform/admin/programmability-authentication-v2?tabs=powershell#step-2-configure-api-permissions)를 참고하세요.
 
+</br>
+
+이후 다음과 같이 **Copilot Studio**를 검색해 아래 이미지의 권한을 선택하고 완료합니다.
+<img width="1445" height="1117" alt="image" src="https://github.com/user-attachments/assets/94d95164-b044-4a21-8898-c74f6dd01d17" />
