@@ -3,8 +3,6 @@ SSO 인증을 위한 Entra ID App Registration 설정을 진행합니다.
 
 이 에이전트의 시나리오는 SSO가 적용된 로우코드 AI Agent를 코드 레벨로 통합하는 실습입니다. 
 
-</br>
-
 ### 1. Entra ID App Registraion 등록
 https://portal.azure.com에 접속하여, Entra ID -> App Registrations을 들어갑니다.
 <img width="509" height="978" alt="image" src="https://github.com/user-attachments/assets/20cdfb0b-c183-4388-a97a-d85a3061dfd6" />
