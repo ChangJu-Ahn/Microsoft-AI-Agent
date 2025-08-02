@@ -78,11 +78,11 @@ Entra ID App Registration에 들어와서 Redirect URIs를 클릭합니다.
 ### 4. 퍼블리시 및 테스트
 코파일럿 스튜디오를 배포한 뒤에 SSO 적용이 되었는지 테스트합니다.
 
-일단 다음과 같이 만든 에이전트를 배포합니다. 그리고 우측 상단의 에이전트 새로고침을 눌러, 로그인을 하라는 메시지가 나오는지 확인합니다.
+일단 다음과 같이 만든 에이전트를 배포합니다. 그리고 우측 상단의 에이전트 새로고침을 눌러, 로그인을 하라는 메시지가 나오는지 확인합니다.    
 <img width="1862" height="374" alt="image" src="https://github.com/user-attachments/assets/ed0297d3-c45f-4594-ac2f-2f5b33df1bfb" />
 <img width="645" height="922" alt="image" src="https://github.com/user-attachments/assets/e8836c3b-6873-477a-817b-72de9c18085b" />
 
-로그인 후 에이전트가 정상동작하는지 확인합니다.
+로그인 후 에이전트가 정상동작하는지 확인합니다.    
 <img width="645" height="922" alt="image" src="https://github.com/user-attachments/assets/e363108f-70fd-4025-b132-aaa332a73547" />
 
 
