@@ -22,7 +22,7 @@ Copilot Studio에서 만든 에이전트가 M365 생태계 전반에서 진짜 �
 [= 동영상 연동 필요]   
 Copilot Studio through M365 Agents SDK 연동 데모 
 ===
-[![Copilot Studio AI Orchestration](https://img.youtube.com/vi/zkLu6C7wp54/maxresdefault.jpg)](https://youtu.be/zkLu6C7wp54)
+[![Copilot Studio AI Orchestration](https://img.youtube.com/vi/IprLZA89qjk/maxresdefault.jpg)](https://youtu.be/IprLZA89qjk)
 > 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
 ----
 
