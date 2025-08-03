@@ -19,20 +19,21 @@ Copilot Studio에서 만든 에이전트가 M365 생태계 전반에서 진짜 �
 
 </br>
 
-## 1) Copilot Studio over M365 Agents SDK 연동 간단한 데모 
+## 1) React Assistatn UI Open Source over Copilot Studio
+[![Copilot Studio AI Orchestration](https://img.youtube.com/vi/y5QWVlIr28k/maxresdefault.jpg)](https://youtu.be/y5QWVlIr28k)
+> 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
+---
+</br>
+
+## 2) Copilot Studio over M365 Agents SDK
 [![Copilot Studio AI Orchestration](https://img.youtube.com/vi/IprLZA89qjk/maxresdefault.jpg)](https://youtu.be/IprLZA89qjk)
 > 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
 ----
 
 </br>
 
-## 2) Copilot Studio over Direct Line 연동 간단한 데모 
+## 3) Copilot Studio over Direct Line
 [![Copilot Studio AI Orchestration](https://img.youtube.com/vi/rWxu48DG8oo/maxresdefault.jpg)](https://youtu.be/rWxu48DG8oo)
 > 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
 ----
 
-</br>
-
-## 3) AI Agent - Assistatn UI over Copilot Studio
-[![Copilot Studio AI Orchestration](https://img.youtube.com/vi/y5QWVlIr28k/maxresdefault.jpg)](https://youtu.be/y5QWVlIr28k)
-> 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
