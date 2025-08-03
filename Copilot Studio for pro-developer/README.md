@@ -20,12 +20,14 @@ Copilot Studio에서 만든 에이전트가 M365 생태계 전반에서 진짜 �
 </br>
 
 ## 1) React Assistatn UI Open Source over Copilot Studio
+AI Agent의 화면을 구성할 수 있는 오픈소스를 활용해 **Copilot Studio의 엔진을 백엔드**에서 동작시킨다면?
 [![Copilot Studio AI Orchestration](https://img.youtube.com/vi/y5QWVlIr28k/maxresdefault.jpg)](https://youtu.be/y5QWVlIr28k)
 > 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
 ---
 </br>
 
 ## 2) Copilot Studio over M365 Agents SDK
+Copilot Studio에서 만든 로우코드 에이전트를 **M365 Agent SDK**를 활용해 코드 레벨에서 사용하는 예시입니다.
 [![Copilot Studio AI Orchestration](https://img.youtube.com/vi/IprLZA89qjk/maxresdefault.jpg)](https://youtu.be/IprLZA89qjk)
 > 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
 ----
@@ -33,6 +35,7 @@ Copilot Studio에서 만든 에이전트가 M365 생태계 전반에서 진짜 �
 </br>
 
 ## 3) Copilot Studio over Direct Line
+Copilot Studio에서 만든 로우코드 에이전트를** Direct Line**을 이용해 코드 레벨에서 사용하는 예시입니다.
 [![Copilot Studio AI Orchestration](https://img.youtube.com/vi/rWxu48DG8oo/maxresdefault.jpg)](https://youtu.be/rWxu48DG8oo)
 > 위 썸네일을 클릭하면 영상을 볼 수 있어요! :)
 ----
