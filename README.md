@@ -41,10 +41,15 @@
    - Copilot Studio에서는 사용자의 의도(질문)을 파악할 수 있는 AI Orchestration 기능이 있습니다.
    - 이게 얼마나 유용한지, 그리고 로우코드에서도 AI 기반으로 에이전트를 어떻게 만들 수 있는지를 이해할 수 있습니다. 
 
-## 10) MCP(Model Context Protocol) + Copilot Studio - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/MCP%20+%20CopilotStudio)
+## 10) #1탄! MCP(Model Context Protocol) + Copilot Studio - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/MCP%20+%20CopilotStudio)
    - AI Agent는 MCP라는 프로토콜로 통합되는 시나리오가 많습니다. 그럼 SaaS 형태의 개발 툴에서도 이를 사용할 수 있을까요?
    - 당연합니다! MCP를 사용한 AI 에이전트 생성은 물론, M365 Copilot & Copilot Chat까지 쉽게 결합이 가능합니다.
+   - 여기서는 Remote MCP로 유명한 https://smithery.ai/ 사이트를 기반으로 한 MCP 연동 예제를 다룹니다.
 
 ## 11) 로우코드 AI 에이전트가 개발자를 만나다 - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/tree/main/Copilot%20Studio%20for%20pro-developer)
    - 로우코드로 만들어진 AI 에이전트를 전문 개발자가 함께할 수 있다면? 정말 모든 걸 할 수 있겠죠? 이게 바로 생산성이죠!
    - 간단한 샘플코드로 아이디어를 얻어가세요! :) feat. 깃헙 코파일럿
+
+## 12) #2탄 MCP를 직접 개발해서 Copilot Studio와 연결해 볼까? - [여기](https://github.com/ChangJu-Ahn/mcsmcp-KR/blob/main/README.md)
+   - 우리가 직접 개발한 로컬 MCP를 기반으로 Copilot Studio와 연동이 되는 게 궁금하시죠?
+   - Visual Studio Code를 이용해서 직접 로컬에 MCP를 구성하고, Azure Container App로 배포. 그리고 Copilot Studio까지 쭉~ 연결해 보는 핸즈온입니다.
