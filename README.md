@@ -52,4 +52,4 @@
 
 ## 12) #2탄 MCP를 직접 개발해서 Copilot Studio와 연결해 볼까? - [여기](https://github.com/ChangJu-Ahn/mcsmcp-KR/blob/main/README.md)
    - 우리가 직접 개발한 로컬 MCP를 기반으로 Copilot Studio와 연동이 되는 게 궁금하시죠?
-   - Visual Studio Code를 이용해서 직접 로컬에 MCP를 구성하고, Azure Container App로 배포. 그리고 Copilot Studio까지 쭉~ 연결해 보는 핸즈온입니다.
+   - VSC를 이용해서 직접 로컬에 MCP를 구성하고, Azure Container App로 배포. 그리고 Copilot Studio까지 쭉~ 연결해 보는 핸즈온입니다.
