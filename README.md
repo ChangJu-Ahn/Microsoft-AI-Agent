@@ -1,5 +1,6 @@
 # Microsoft AI Agent 핸즈온
 마이크로소프트의 강력한 AI Agent를 직접 핸즈온해 볼 수 있는 깃헙리포 입니다.
+> Copilot Studio 및 로우코드 핸즈온 자료는 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main)에도 많아요! :)
 
 <br/>
 
