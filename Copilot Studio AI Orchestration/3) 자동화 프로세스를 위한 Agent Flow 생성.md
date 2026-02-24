@@ -23,9 +23,6 @@
 
 > [!NOTE]
 > 아래 3개의 케이스 중 하나를 선택해서 진행합니다. 선택 기준은 현재 가지고 있는 라이선스를 기반으로 합니다.
-> 케이스 1: 아웃룩 켈린더 연결 - [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/edit/main/Copilot%20Studio%20AI%20Orchestration/3)%20%EC%9E%90%EB%8F%99%ED%99%94%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EB%A5%BC%20%EC%9C%84%ED%95%9C%20Agent%20Flow%20%EC%83%9D%EC%84%B1.md#%EC%BC%80%EC%9D%B4%EC%8A%A4-1-m365%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B3%A0-%EC%9E%88%EC%96%B4-outlook%EC%9D%98-%EC%BA%98%EB%A6%B0%EB%8D%94%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8B%A4%EB%A9%B4)
-> 케이스 2: 구글 캘린더 연결 - 여기
-> 케이스 3: 임의 값 반환 - 여기
 
 ### 케이스 1. M365를 사용하고 있어, OutlooK의 캘린더를 사용할 수 있다면?
 Power Automate는 1,400개 이상의 커넥터가 이미 만들어져 있습니다.   
