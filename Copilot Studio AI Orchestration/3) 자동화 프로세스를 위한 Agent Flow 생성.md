@@ -25,8 +25,7 @@
 > 아래 3개의 케이스 중 하나를 선택해서 진행합니다. 선택 기준은 현재 가지고 있는 라이선스를 기반으로 합니다.
 
 ### 케이스 1. M365를 사용하고 있어, OutlooK의 캘린더를 사용할 수 있다면?
-Power Automate는 1,400개 이상의 커넥터가 이미 만들어져 있습니다.   
-또한, 고객의 레거시 API를 기반으로 만들 수 있는 **커스텀 커넥터**라는 기능도 제공합니다. 여기서는 이미 만들어진 아웃룩 커넥터를 사용합니다.
+Power Platform에는 1,400개 이상의 커넥터가 존재합니다. 여기서는 다음과 같이 아웃룩 커넥터를 사용합니다.
 ![image](https://github.com/user-attachments/assets/f9f2b66e-ce0f-45c9-a3f7-caac43d2142c)
 
 아웃룩 커넥터 내 이벤트 생성 액션을 사용합니다. 다음과 같이 일정 ID를 입력하고, *fx* 라는 버튼을 누릅니다.
@@ -55,8 +54,24 @@ formatDateTime(triggerBody()?['text'], 'yyyy-MM-ddTHH:mm:ss')
 ![image](https://github.com/user-attachments/assets/c901f1bc-63ff-4259-8ea0-9238f1ff160d)
 
 ### 케이스 2. 구글 캘린더 연결
+Power Platform에는 1,400개 이상의 커넥터가 존재합니다. 여기서는 다음과 같이 아웃룩 커넥터를 사용합니다.   
+만약 처음 설정이라면, Google에서 계정 연동할 때 다양한 보안 허용이 필요할 수 있습니다. 모두 설정하고 나면 아래와 같이 구글 캘린더도 똑같은 형태로 사용할 수 있습니다.
+<img width="681" height="1029" alt="image" src="https://github.com/user-attachments/assets/21f716d9-f5c5-4661-b049-f1289a6775f2" />
+
+실제 항목은 `케이스 1`의 날짜 PowerFx, 타이틀 등을 참고하여 동일하게 입력합니다.
+<img width="704" height="450" alt="image" src="https://github.com/user-attachments/assets/f276353b-b672-4aa3-be07-9671d75de872" />
+
+최종으로는 다음과 같이 플로우 이름도 변경합니다.
+<img width="663" height="184" alt="image" src="https://github.com/user-attachments/assets/7aaf9873-e37e-4548-9afe-828210c86aef" />
 
 
+### 케이스 3. 저장이 되었다는 가정으로 임시 값 반환.
+케이스 1, 2 항목이 안 된다면? 그냥 다음과 같이 입력받은 값을 그대로 조합해서 반환해 준다.
+<img width="1610" height="1144" alt="image" src="https://github.com/user-attachments/assets/d4f3a794-af18-45b8-8a9c-7744585f8281" />
+
+```
+'사용자가 입력한 값은 다음과 같습니다. 1) 휴가일자' & triggerBody()?['text'] & ' 2) 사유: ' & triggerBody()?['text_1']
+```
 
 ### 4. Flow 이름 변경
 Agent Flow의 이름과 설명을 변경하기 위해 다음과 같은 경로로 클릭하며 넘어갑니다.   
