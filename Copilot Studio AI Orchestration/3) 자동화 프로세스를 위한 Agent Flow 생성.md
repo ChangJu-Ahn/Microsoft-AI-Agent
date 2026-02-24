@@ -92,8 +92,12 @@ Agent Flow의 이름과 설명을 변경하기 위해 다음과 같은 경로로
 
 
 ---
-만약 테스트시 오류가 발생한다면, Power Fx 오류일 수 있습니다. 아래 코드를 디자이너 내 시간/종료 시간에 붙여넣기합니다.
-![image](https://github.com/user-attachments/assets/12659dcc-f018-47b5-be93-41c14cb3a353)
+> [!Warning]
+> 만약 테스트시 오류가 발생한다면, Power Fx 오류일 수 있습니다. 아래 코드를 디자이너 내 시간/종료 시간에 붙여넣기합니다.
 
+![image](https://github.com/user-attachments/assets/12659dcc-f018-47b5-be93-41c14cb3a353)
+```
+formatDateTime(triggerBody()?['text'], 'yyyy-MM-ddTHH:mm:ss')
+```
 
 
